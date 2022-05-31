@@ -1,0 +1,363 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Direct and Inverse Variations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18281</md:content-id>
+  <md:title>Direct and Inverse Variations</md:title>
+  <md:abstract>This module introduces the concept of direct and inverse variation in Algebra in preparation for modeling data with functions.</md:abstract>
+  <md:uuid>ee226054-c50f-4bd0-8243-f88b932a7092</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/linear-equations-and-their-graphs/t/inverse-variation" strength="3">Inverse Variation Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/linear-equations-and-their-graphs/t/direct-variation" strength="3">Direct Variation Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/functions/t/joint-and-combined-variation" strength="3">Joint Variation Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id11944789">
+      <title>Direct Variation</title>
+      <para id="id12150783">As a simple example, consider the variable c which is the number of cars in a parking lot, and the variable t which is the number of tires in the parking lot. Assuming each car has four tires, we might see numbers like this.</para>
+      <table id="id11749294" summary="A table showing the relationship between the number of cars and the total number of tires.">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>c (number of cars)</entry>
+              <entry>t (number of tires)</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>4</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>8</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>12</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>16</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id10349204">These two columns stand in a very particular relationship to each other which is referred to as <emphasis>direct variation</emphasis>.</para>
+      <para id="id10906439"><title>Definition of “Direct Variation”</title>Two variables are in “direct variation” with each other if the following relationship holds: whenever one variable doubles, the other variable doubles. Whenever one variable triples, the other variable triples. And so on.</para>
+      <para id="id5181082">When the left-hand column goes up, the right-hand column goes up. This is characteristic of direct variation, but it does not <emphasis>prove</emphasis> a direct variation. The function 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math> has the characteristic that whenever 
+<m:math>
+<m:mi>x</m:mi>
+</m:math> goes up, 
+<m:math>
+<m:mi>y</m:mi>
+</m:math> also goes up; however, it does not fulfill the definition of direct variation.</para>
+      <para id="id10472818">The equation for this particular function is, of course, 
+<m:math>
+<m:mi>t</m:mi>
+<m:mo>(</m:mo>
+<m:mi>c</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+<m:mi>c</m:mi>
+</m:math>. In general, direct variation always takes the form 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mi>x</m:mi>
+</m:math>, where 
+<m:math>
+<m:mi>k</m:mi>
+</m:math> is some constant—a number, not a function of 
+<m:math>
+<m:mi>x</m:mi>
+</m:math>. This number is referred to as the <emphasis>constant of variation</emphasis>.</para>
+      <para id="id9706571">Note that, in real life, these relationships are not always exact! For instance, suppose <m:math><m:mi>m</m:mi></m:math> is the number of men in the room, and <m:math><m:mi>w</m:mi></m:math> is the <emphasis>weight</emphasis> of all the men in the room. The data might appear something like this:</para>
+      <table id="id11739666" summary="A table showing the number of men and the corresponding weights. There is no direct relationship between the values.">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>m (number of men)</entry>
+              <entry>w (total weight of men, in pounds)</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>160</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>330</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>475</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>655</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id12299668">Not all men weigh the same. So this is not <emphasis>exactly</emphasis> a direct variation. However, looking at these numbers, you would have a very good reason to suspect that the relationship is more or less direct variation.</para>
+      <para id="id11201406">How can you confirm this? Recall that if this is direct variation, then it follows the equation 
+<m:math>
+<m:mi>w</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mi>m</m:mi>
+</m:math>, or 
+<m:math>
+<m:mi>w</m:mi>
+<m:mo>/</m:mo>
+<m:mi>m</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+</m:math>. So for direct variation, we would expect the ratio w/m to be approximately the same in every case. If you compute this ratio for every pair of numbers in the above table, you will see that it does indeed come out <emphasis>approximately</emphasis> the same in each case. (Try it!) So this is a good <emphasis>candidate</emphasis> for direct variation.</para>
+    </section>
+    <section id="id11202041">
+      <title>Inverse Variation</title>
+      <para id="id11928141">Suppose 5 cars all travel 120 miles. These cars get different mileage. How much gas does each one use? Let m be the miles per gallon that a car gets, and g be the number of gallons of gas it uses. Then the table might look something like this.</para>
+      <table id="id12222852" summary="A table showing an inverse relationship between miles per gallon and number of gallons needed to travel 120 miles.">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>m (miles/gallon)</entry>
+              <entry>g (gallons of gas used to travel 120 miles)</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>10</entry>
+              <entry>12</entry>
+            </row>
+            <row>
+              <entry>20</entry>
+              <entry>6</entry>
+            </row>
+            <row>
+              <entry>30</entry>
+              <entry>4</entry>
+            </row>
+            <row>
+              <entry>40</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>60</entry>
+              <entry>2</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id11261818">These variables display an <emphasis>inverse relationship</emphasis>.</para>
+      <para id="id9442791"><title>Definition of “Inverse Variation”</title>Two variables are in “inverse variation” with each other if the following relationship holds: whenever one variable doubles, the other variable halves. Whenever one variable triples, the other variable drops in a third. And so on.</para>
+      <para id="id10775746">Note that as the first column gets <emphasis>bigger</emphasis>, the second column gets <emphasis>smaller</emphasis>. This is suggestive of an inverse relationship, but it is not a guarantee. 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>10</m:mn>
+<m:mo>–</m:mo>
+<m:mi>x</m:mi>
+</m:math> would also have that property, and it is not inverse variation.</para>
+      <para id="id9459265">The equation for this particular function is 
+<m:math>
+<m:mi>g</m:mi>
+<m:mo>=</m:mo>
+<m:mn>120</m:mn>
+<m:mo>/</m:mo>
+<m:mi>m</m:mi>
+</m:math>. In general, inverse variation can always be expressed as <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mo>/</m:mo>
+<m:mi>x</m:mi>
+</m:math>, where 
+<m:math>
+<m:mi>k</m:mi>
+</m:math> is once again the <emphasis>constant of variation</emphasis>.</para>
+      <para id="id11350351">If 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mo>/</m:mo>
+<m:mi>x</m:mi>
+</m:math>, then of course 
+<m:math>
+<m:mi>x</m:mi>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+</m:math>. So inverse variation has the characteristic that when you <emphasis>multiply</emphasis> the two variables, you get a constant. In this example, you will always get 120. With real life data, you may not always get <emphasis>exactly</emphasis> the same answer; but if you always get <emphasis>approximately</emphasis> the same answer, that is a good indication of an inverse relationship.</para>
+    </section>
+    <section id="id11736897">
+      <title>More Complex Examples</title>
+      <para id="id12230502">In the year 1600, Johannes Kepler sat down with the data that his teacher, Tycho Brahe, had collected after decades of carefully observing the planets. Among Brahe’s data was the <emphasis>period</emphasis> of each planet’s orbit (how many years it takes to go around the sun), and the <emphasis>semimajor axis</emphasis> of the orbit (which is sort of like a radius, but not quite—more on this in “Ellipses”). Today, these figures look something like this.</para>
+      <table id="id9982096" summary="A table showing the complex relationship between the planets, their semimajor axis period of time to complete a full orbit.">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>Planet</entry>
+              <entry>Semimajor Axis a (1010 meters)</entry>
+              <entry>Period T (years)</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>Mercury</entry>
+              <entry>5.79</entry>
+              <entry>0.241</entry>
+            </row>
+            <row>
+              <entry>Venus</entry>
+              <entry>10.8</entry>
+              <entry>0.615</entry>
+            </row>
+            <row>
+              <entry>Earth</entry>
+              <entry>15.0</entry>
+              <entry>1 (*duh)</entry>
+            </row>
+            <row>
+              <entry>Mars</entry>
+              <entry>22.8</entry>
+              <entry>1.88</entry>
+            </row>
+            <row>
+              <entry>Jupiter</entry>
+              <entry>77.8</entry>
+              <entry>11.9</entry>
+            </row>
+            <row>
+              <entry>Saturn</entry>
+              <entry>143</entry>
+              <entry>29.5</entry>
+            </row>
+            <row>
+              <entry>Uranus</entry>
+              <entry>287</entry>
+              <entry>84</entry>
+            </row>
+            <row>
+              <entry>Neptune</entry>
+              <entry>450</entry>
+              <entry>165</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id9231452">What can we make of this data? As a goes up, 
+<m:math>
+<m:mi>T</m:mi>
+</m:math> clearly also goes up. But they are not directly proportional. For instance, looking at the numbers for Uranus and Neptune, we see that 165 is almost exactly twice 84; but 450 is much less than twice 287. Is there a consistent pattern? Kepler went down in history for figuring out that <emphasis>the square of the period is directly proportional to the cube of the semimajor axis:</emphasis> in numbers, 
+<m:math>
+<m:msup>
+<m:mi>T</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mi>a</m:mi>
+<m:mn>3</m:mn>
+</m:math>. You can confirm this for yourself, using the numbers above. (What is <m:math>
+<m:mi>k</m:mi>
+</m:math>?)</para>
+      <para id="id11903051">So we see that the concepts of “directly proportional” and “inversely proportional” can be applied to situations more complex than 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mi>x</m:mi>
+</m:math> 
+or 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mo>/</m:mo>
+<m:mi>x</m:mi>
+</m:math>.</para>
+      <para id="id11589368">The situation becomes more interesting still when <emphasis>multiple independent variables</emphasis> are involved. For instance, Isaac Newton was able to explain Kepler’s results by proposing that every body in the world exerts a gravitational field that obeys the following two laws.</para>
+      <list id="id12293843" list-type="bulleted">
+        <item>When the mass of the body doubles, the strength of the gravitational field doubles</item>
+        <item>When the distance from the body doubles, the strength of the field drops in a fourth</item>
+      </list>
+      <para id="id9643581">Science texts express these laws more concisely: the field is <emphasis>directly proportional to the mass, and inversely proportional to the square of the radius.</emphasis> It may seem as if these two statements require two different equations. But instead, they are two different clues to finding the <emphasis>one</emphasis> equation that allows you to find the gravitational field F at a distance r from a given mass m. That one equation is 
+<m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>G</m:mi>
+<m:mi>m</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math> where <m:math><m:mi>G</m:mi></m:math>, the constant of proportionality, is one of the universal constants of nature. This does not come from <emphasis>combining</emphasis> the two equations 
+<m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:mi>m</m:mi>
+</m:math>
+ and 
+<m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi>k</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math>
+ as a composite function or anything else. Rather, it is one equation that expresses both relationships properly: doubling the mass doubles the field, and doubling the radius drops the field in a fourth.</para>
+    </section>
+  </content>
+</document>

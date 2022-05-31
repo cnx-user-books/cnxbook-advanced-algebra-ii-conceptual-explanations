@@ -1,0 +1,449 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Quadratic Inequalities</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18230</md:content-id>
+  <md:title>Quadratic Inequalities</md:title>
+  <md:abstract>This module covers quadratic inequalities.</md:abstract>
+  <md:uuid>4184ae11-a9a6-496f-8413-3d0466d1e040</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/graphing-a-quadratic-inequality" strength="3">Graphing Quadratic Inequalities Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id9165012">Consider the following inequality:</para>
+    <equation id="id6740166">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>6x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">≤</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - x rSup { size 8{2} } +6x - 8 &lt;= 0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id10798133">There are a number of different ways to approach such a problem. The one that is stressed in the text is by <emphasis>graphing</emphasis>.</para>
+    <para id="id10143964">We begin by graphing the function 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x rSup { size 8{2} } +6x - 8} {}</m:annotation></m:semantics></m:math>. We know how to graph this function by completing the square, but we’re going to take a shortcut—one that will not actually tell us what the vertex is, but that will give us what we need to know. The shortcut relies on finding only two facts about the quadratic function: what are its <emphasis>roots</emphasis> (the places it crosses the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis), and which way does it open?</para>
+    <para id="id8418913">Of course we know three ways to find the roots of a quadratic equation: the easiest is always factoring when it works, as it does in this case.</para>
+    <equation id="id11084856">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>6x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - x rSup { size 8{2} } +6x - 8=0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id7346981">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left (x - 4 right ) left ( - x+2 right )=0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="id10750619">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0,</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=0,x=2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id10385427">Second, which way does the parabola open? Since it is a vertical parabola with a <emphasis>negative coefficient of the </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math><emphasis> term</emphasis>, it opens down.</para>
+    <para id="id7127648">So the graph looks like this:</para>
+    <figure id="id9046082"><media id="id1977285" alt="Graph of an x-squared parabola where x is less than zero. The parabola opens up to the bottom."><image src="../../media/graphics1-2f1a.png" mime-type="image/png" print-width="3in"/></media></figure>
+    <para id="id10554475">(<emphasis>Hey, if it’s that easy to graph a quadratic function, why did we spend all that time completing the square?</emphasis> Well, this method of graphing does not tell you the vertex. It tells us all we need to solve the quadratic inequality, but not everything about the graph. <emphasis>Oh. Darn</emphasis>. Anyway, back to our original problem.)</para>
+    <para id="id10617050">If that is the graph of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x rSup { size 8{2} } +6x - 8} {}</m:annotation></m:semantics></m:math>, then let us return to the original question: when is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x rSup { size 8{2} } +6x - 8} {}</m:annotation></m:semantics></m:math><emphasis>less than or equal to 0</emphasis>? What this question is asking is: when does this graph dip <emphasis>below</emphasis> the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis? Looking at the graph, the answer is clear: the graph is below the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis, and therefore the function is negative, whenever 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 2} {}</m:annotation></m:semantics></m:math><emphasis>or</emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 4} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id9096645">When students graph these functions, they tend to get the right answer. Where students go wrong is by trying to take “shortcuts.” They find where the function equals zero, and then attempt to quickly find a solution based on that. To see where this goes wrong, consider the following:</para>
+    <equation id="id10323349">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>2x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">≥</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} }  - 2x+2 &gt;= 0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="id9097497">If you attempt to find where this function <emphasis>equals</emphasis> zero—using, for instance, the quadratic formula—you will find that it never does. (Try it!) Many students will therefore quickly answer “no solution.” Quick, easy—and wrong. To see why, let’s try graphing it.</para>
+    <equation id="id11067624">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} }  - 2x+2=x rSup { size 8{2} }  - 2x+1+1= left (x - 1 right ) rSup { size 8{2} } +1} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <figure id="id9004104"><media id="id1171758167586" alt="Graph of x-squared with vertex at (1,1)."><image src="../../media/graphics2-e4ea.png" mime-type="image/png" print-width="3in"/></media></figure>
+    <para id="id8499694">The original question asked: when is this function greater than or equal to zero? The graph makes it clear: <emphasis>everywhere</emphasis>. Any 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> value you plug into this function will yield a positive answer. So the solution is: “All real numbers.”</para>
+    <section id="id-148979774602">
+      <title>“Extra for Experts”: Quadratic Inequalities by Factoring</title>
+      <para id="id8159315">This technique is <emphasis>not</emphasis> stressed in this book. But it is possible to solve quadratic inequalities without graphing, if you can factor them.</para>
+      <para id="id9196646">Let’s return to the previous example:</para>
+      <equation id="id10646475">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>6x</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>8</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">≤</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ - x rSup { size 8{2} } +6x - 8 &lt;= 0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id5363762">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mrow>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mo stretchy="false">≤</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ left (x - 4 right ) left ( - x+2 right ) &lt;= 0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id9024784">When we solved quadratic <emphasis>equations</emphasis> by factoring, we asked the question: “How can you multiply two numbers and get 0?” (Answer: when one of them is 0.) Now we ask the question: “How can you multiply two numbers and get a <emphasis>negative answer</emphasis>?” Answer: when the two numbers have <emphasis>different signs</emphasis>. That is, the product will be negative if...</para>
+      
+      <table id="id6740672" frame="none" summary="">
+<tgroup cols="3" align="center"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="header_c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+<row>
+<entry>The first is positive and the second negative</entry>
+<entry>OR</entry>
+<entry> The first is negative and the second positive</entry>
+</row>
+            <row>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - 4 &gt;= 0} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x+2 &lt;= 0} {}</m:annotation></m:semantics></m:math></entry>
+              <entry>OR</entry>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - 4 &lt;= 0} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x+2 &gt;= 0} {}</m:annotation></m:semantics></m:math></entry>
+            </row>
+            <row>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 4} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≤</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x &lt;=  - 2} {}</m:annotation></m:semantics></m:math></entry>
+              <entry>OR</entry>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 4} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">≥</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x &gt;=  - 2} {}</m:annotation></m:semantics></m:math></entry>
+            </row>
+            <row>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 4} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 2} {}</m:annotation></m:semantics></m:math></entry>
+              <entry>OR</entry>
+              <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 4} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 2} {}</m:annotation></m:semantics></m:math></entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">≥</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 4} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>OR</entry>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">≤</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 2} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table>
+      <para id="id9937963">This is, of course, the same answer we got by graphing.</para>
+    </section>
+  </content>
+</document>

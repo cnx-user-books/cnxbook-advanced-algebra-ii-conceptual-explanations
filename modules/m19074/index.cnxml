@@ -1,0 +1,525 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Series</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19074</md:content-id>
+  <md:title>Series</md:title>
+  <md:abstract>An updated version of the Series module.</md:abstract>
+  <md:uuid>5063374a-d266-4fb2-acde-454cce78c47c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/sequences-and-series/t/arithmetic-series" strength="3">Arithmetic Series Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/sequences-and-series/t/geometric-series" strength="3">Geometric Series Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/sequences-and-series/t/geometric-series" strength="3">Series and Summation Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+      <para id="id11144207">A <emphasis>series</emphasis> is a list of numbers—like a sequence—but instead of listing them, you add them all up. For instance, 4+9+3+2+17. (This particular series adds up to 35.)</para>
+      <para id="id10953918">One way to compactly represent a series is with “summation notation,” which looks like this:</para>
+      <equation id="id10283088"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:munderover>
+<m:mrow>
+                      <m:mo stretchy="false">∑</m:mo>
+</m:mrow>        
+              <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>7</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:munderover>
+                    <m:msup>
+                      <m:mi>n</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Sum cSub { size 8{n=3} }  cSup { size 8{7} }  {n rSup { size 8{2} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id12213756">The big funny-looking thing in the middle is the Greek letter uppercase Sigma, and it indicates a series. To “unpack” this notation, start counting at the bottom (<m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>), and stop when you reach the stop (<m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>7</m:mn>
+</m:math>). For each term, plug that value of <m:math>
+<m:mi>n</m:mi>
+</m:math> into the given formula (<m:math>
+<m:msup>
+<m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>). So this particular formula, which we can read as “the sum as <m:math>
+<m:mi>n</m:mi>
+</m:math> goes from 3 to 7 of <m:math>
+<m:msup>
+<m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>”, simply means:</para>
+      <para id="id12176594"><m:math>
+<m:msup>
+<m:mn>3</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mn>4</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mn>5</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mn>6</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mn>7</m:mn>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></para>
+      <section id="id9691148">
+        <title>Arithmetic Series</title>
+        <para id="id12087345">If you add up all the terms of an arithmetic sequence, you have an arithmetic series. For instance, <m:math>
+<m:mn>10</m:mn>
+<m:mo>+</m:mo>
+<m:mn>13</m:mn>
+<m:mo>+</m:mo>
+<m:mn>16</m:mn>
+<m:mo>+</m:mo>
+<m:mn>19</m:mn>
+<m:mo>+</m:mo>
+<m:mn>22</m:mn>
+<m:mo>+</m:mo>
+<m:mn>25</m:mn>
+<m:mo>=</m:mo>
+<m:mn>105</m:mn>
+</m:math>.</para>
+        <para id="id10201835">There is a “trick” that can be used to add up the terms of any arithmetic series. While this trick may not save much time with a 6-item series like the one above, it can be very useful if adding up longer series. The trick is to work <emphasis>from the outside in</emphasis>.</para>
+        <para id="id10185947">Consider the example given above: <m:math>
+<m:mn>10</m:mn>
+<m:mo>+</m:mo>
+<m:mn>13</m:mn>
+<m:mo>+</m:mo>
+<m:mn>16</m:mn>
+<m:mo>+</m:mo>
+<m:mn>19</m:mn>
+<m:mo>+</m:mo>
+<m:mn>22</m:mn>
+<m:mo>+</m:mo>
+<m:mn>25</m:mn>
+</m:math>. Looking at the first and last terms, <m:math>
+<m:mn>10</m:mn>
+<m:mo>+</m:mo>
+<m:mn>25</m:mn>
+<m:mo>=</m:mo>
+<m:mn>35</m:mn>
+</m:math>. Going in, to the second and next-to-last terms, <m:math>
+<m:mn>13</m:mn>
+<m:mo>+</m:mo>
+<m:mn>22</m:mn>
+<m:mo>=</m:mo>
+<m:mn>35</m:mn>
+</m:math>. Finally, the two inside numbers <m:math>
+<m:mn>16</m:mn>
+<m:mo>+</m:mo>
+<m:mn>19</m:mn>
+<m:mo>=</m:mo>
+<m:mn>35</m:mn>
+</m:math>. So we can see that the sum of the whole thing is <m:math>
+<m:mn>3</m:mn>
+<m:mo>*</m:mo>
+<m:mn>35</m:mn>
+</m:math>.</para>
+        <para id="id11866984">Pause here and check the following things.</para>
+        <list id="id11890801" list-type="bulleted">
+          <item>You understand the calculation that was done for this particular example.</item>
+          <item>You understand that this “trick” will work for any arithmetic series.</item>
+          <item>You understand that this trick will <emphasis>not</emphasis> work, in general, for series that are not arithmetic.</item>
+        </list>
+        <para id="id13040674">If we apply this trick to the <emphasis>generic</emphasis> arithmetic series, we get a formula that can be used to sum up any arithmetic series.</para>
+        <para id="id9164781">Every arithmetic series can be written as follows:</para>
+        <para id="id12050567"><m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:mi>d</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>d</m:mi>
+<m:mo>)</m:mo>
+<m:mo>…</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>-</m:mo>
+<m:mi>d</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+</m:math></para>
+        <para id="id12976720">If you add the first and last terms, you get <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+</m:math>. Ditto for the second and next-to-last terms, and so on. How many such pairs will there be in the whole series? Well, there are <m:math>
+<m:mi>n</m:mi>
+</m:math> terms, so there are
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {2} } } {}</m:annotation></m:semantics></m:math> pairs. So the sum for the whole series is
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {2} } } {}</m:annotation></m:semantics><m:mo>(</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>n</m:mi>
+</m:msub>
+<m:mo>)</m:mo>
+</m:math>.</para>
+      </section>
+      <section id="id12458646">
+        <title>Geometric Series</title>
+        <para id="id11444180">If you add up all the terms of a geometric sequence, you have a geometric series. The “arithmetic series trick” will not work on such a series; however, there is a <emphasis>different</emphasis> trick we can use. As an example, let’s find the sum <m:math>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+</m:math>.</para>
+        <para id="id4573152">We begin by calling the sum of this series <m:math>
+<m:mi>S</m:mi>
+</m:math>:</para>
+        <para id="id10128162"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+</m:math></para>
+        <para id="id11650629">Now, if you multiply both sides of this equation by 3, you get the first equation I have written below. (The second equation below is just copied from above.)</para>
+        <para id="id9641711"><m:math>
+<m:mn>3</m:mn>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+<m:mo>+</m:mo>
+<m:mn>486</m:mn>
+</m:math> <emphasis>(*confirm this for yourself!)</emphasis></para>
+        <para id="id12294892"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>18</m:mn>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mo>+</m:mo>
+<m:mn>162</m:mn>
+</m:math></para>
+        <para id="id9296350">Here comes the key moment in the trick: <emphasis>subtract the two equations</emphasis>. This leaves you with:</para>
+        <para id="id11886334"><m:math>
+<m:mn>2</m:mn>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>486</m:mn>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+</m:math>, so 
+<m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:mn>242</m:mn>
+</m:math></para>
+        <para id="id11370561">Once again, pause to convince yourself that this will work on all geometric series, but only on geometric series.</para>
+        <para id="id13163473">Finally—once again—we can apply this trick to the <emphasis>generic</emphasis> geometric series to find a formula. So we begin with 
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>…</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+</m:math> and write…</para>
+        <para id="id12966346"><m:math>
+<m:mi>r</m:mi>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:msub> 
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mo>...</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>r</m:mi>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mi>n</m:mi>
+</m:msup>
+</m:math> <emphasis>(*confirm this!)</emphasis></para>
+        <para id="id12238508"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mi>r</m:mi>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo> ...</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mrow>
+<m:mi>n</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+</m:mrow>
+</m:msup>
+</m:math></para>
+        <para id="id11105073">Again, subtracting and solving, we get…</para>
+        <para id="id10924042"><m:math>
+<m:mi>r</m:mi>
+<m:mi>S</m:mi>
+<m:mo>–</m:mo>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mi>n</m:mi>
+</m:msup>
+<m:mo>–</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math></para>
+        <para id="id13166847"><m:math>
+<m:mi>S</m:mi>
+<m:mo>(</m:mo>
+<m:mi>r</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mi>n</m:mi>
+</m:msup>
+<m:mn>–1</m:mn>
+<m:mo>)</m:mo>
+</m:math></para>
+        <para id="id11348407"><m:math>
+<m:mi>S</m:mi>
+<m:mo>=</m:mo>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>r</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {r rSup { size 8{n} }  - 1}  over  {r - 1} } } {}</m:annotation></m:semantics></m:math></para>
+
+        <para id="id12471239">So there we have it: a general formula for the sum of any finite geometric series, with the first term <m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math>, the common ratio <m:math>
+<m:mi>r</m:mi>
+</m:math>, and a total of <m:math>
+<m:mi>n</m:mi>
+</m:math> terms.</para>
+</section>
+
+  </content>
+</document>

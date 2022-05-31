@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Data Concepts -- Introduction</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c7401051-7b18-44a8-b6fa-b088c0a71502</md:uuid>
+</metadata>
+  <content>
+    <section id="id11311907">
+      <title>Conceptual Explanations: Modeling Data with Functions</title>
+      <para id="id12972916">In school, you generally start with a function and work from there to numbers. “Newton’s Law tells us that 
+<m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>a</m:mi>
+</m:math>. So if you push on a 3kg object with a 12N force, what will the acceleration be?”</para>
+      <para id="id10080887">In real life, the work often goes the other way. Newton didn’t start out <emphasis>knowing</emphasis> that 
+<m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>a</m:mi>
+</m:math>; he observed the world around him, and <emphasis>concluded </emphasis>that 
+<m:math>
+<m:mi>F</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>a</m:mi>
+</m:math>. In science, you begin with data—that is, numbers—and attempt to find a mathematical function that will <emphasis>model </emphasis>the data. Then you use that function to make predictions for new data. If the predictions come true, you gain confidence in your model.</para>
+      <para id="id11230546">So, this unit is about a few processes that can be used to look at a set of numbers and find a function that relates them.</para>
+    </section>
+  </content>
+</document>

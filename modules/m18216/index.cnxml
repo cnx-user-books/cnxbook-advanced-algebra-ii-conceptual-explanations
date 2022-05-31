@@ -1,0 +1,177 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Quadratic Concepts -- Different Types of Solutions to Quadratic Equations</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5a01b123-6250-4e9b-9030-26755e04e41a</md:uuid>
+</metadata>
+  <content>
+    <para id="id6787422">The heart of the quadratic formula is the part under the square root: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ac</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b rSup { size 8{2} }  - 4 ital "ac"} {}</m:annotation></m:semantics></m:math>. This part is so important that it is given its own name: the <emphasis>discriminant</emphasis>. It is called this because it <emphasis>discriminates</emphasis> the different types of solutions that a quadratic equation can have.</para>
+    
+    <para id="id8084320"><title>Common Error</title>Students often think that the discriminant is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ac</m:mtext></m:mrow></m:mstyle></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {b rSup { size 8{2} }  - 4 ital "ac"} } {}</m:annotation></m:semantics></m:math>. But the discriminant is <emphasis>not the square root</emphasis>, it is the part that is <emphasis>under</emphasis> the square root:
+    <equation id="id7574277">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>Discriminant</m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>ac</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"Discriminant"=b rSup { size 8{2} }  - 4 ital "ac"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    It can often be computed quickly and easily without a calculator.</para>
+    <para id="id7432849">Why is this quantity so important? Consider the above example, where the discriminant was 36. This means that we wound up with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- 6} {}</m:annotation></m:semantics></m:math> in the numerator. So the problem had two different, rational answers: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 {  { size 8{2} }  over  { size 8{3} } } } {}</m:annotation></m:semantics></m:math> and
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 {  { size 8{1} }  over  { size 8{3} } } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id6225241">Now, consider 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +3x+1=0} {}</m:annotation></m:semantics></m:math>. In this case, the discriminant is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 rSup { size 8{2} }  - 4 \( 1 \)  \( 1 \) =5} {}</m:annotation></m:semantics></m:math>. We will end up with 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +-  sqrt {5} } {}</m:annotation></m:semantics></m:math> in the numerator. There will still be two answers, but they will be <emphasis>irrational</emphasis>—they will be impossible to express as a fraction without a square root.</para>
+    <para id="id3508571"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mn>4x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>25</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x rSup { size 8{2} }  - "20"x+"25"=0} {}</m:annotation></m:semantics></m:math>. Now the discriminant is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>20</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>25</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>400</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>400</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" rSup { size 8{2} }  - 4 \( 4 \)  \( "25" \) ="400" - "400"=0} {}</m:annotation></m:semantics></m:math>. We will end up with ±0 in the numerator. But it makes no difference if you add or subtract 0; you get the same answer. So this problem will have only one answer.</para>
+    <para id="id7573657">And finally, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mn>3x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>5x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x rSup { size 8{2} } +5x+4} {}</m:annotation></m:semantics></m:math>. Now, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ac</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>25</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>48</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b rSup { size 8{2} }  - 4 ital "ac"=5 rSup { size 8{2} }  - 4 \( 3 \)  \( 4 \) ="25" - "48"= - "23"} {}</m:annotation></m:semantics></m:math>. So in the numerator we will have 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23</m:mtext></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - "23"} } {}</m:annotation></m:semantics></m:math>. Since you cannot take the square root of a negative number, there will be no solutions!</para>
+    
+    <list id="id6815623" list-type="bulleted"><title>Summary: The Discriminant</title><item>If the discriminant is a perfect square, you will have two rational solutions.</item>
+      <item>If the discriminant is a positive number that is not a perfect square, you will have two irrational solutions (ie they will have square roots in them).</item>
+      <item>If the discriminant is 0, you will have one solution.</item>
+      <item>If the discriminant is negative, you will have no solutions.</item>
+    </list>
+    <para id="id4186281">These rules do not have to be memorized: you can see them very quickly by understanding the quadratic formula (which <emphasis>does</emphasis> have to be memorized—if all else fails, try singing it to the tune of Frère Jacques).</para>
+    <para id="id5325496">Why is it that quadratic equations can have 2 solutions, 1 solution, or no solutions? This is easy to understand by looking at the following graphs. Remember that in each case the quadratic equation asks when the function is 0—that is to say, when it crosses the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis.</para>
+    <para id="id6934788">
+      <figure id="id6934793"><subfigure id="quad_graph_1">
+         <media id="idm5100624" alt="Graph showing x-squared parabola shifted 2 spaces down the y-axis"><image src="../../media/graphics1-6244.png" mime-type="image/png" print-width="2in"/></media>
+<caption>
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} }  - 2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+Equals 0 two times</caption>    
+
+
+       </subfigure>
+<subfigure id="quad_graph_2">
+        <media id="idm7265712" alt="Graph showing x-squared parabola positioned and centered at the origin."><image src="../../media/graphics2-1596.png" mime-type="image/png" print-width="2in"/></media>
+<caption>
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+Equals 0 once</caption>
+       </subfigure>
+<subfigure id="quad_graph_3">
+        <media id="idp200160" alt="Graph showing x-squared parabola shifted 2 spaces up the y-axis."><image src="../../media/graphics3-f040.png" mime-type="image/png" print-width="2in"/></media>
+<caption>
+
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } +2} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+ . Never equals 0
+</caption>
+       </subfigure></figure>
+    </para>
+    <para id="id6725316">More on how to generate these graphs is given below. For the moment, the point is that you can visually see why a quadratic function can equal 0 twice, or one time, or never. It can <emphasis>not</emphasis> equal 0 three or more times.</para>
+  </content>
+</document>

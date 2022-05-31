@@ -1,0 +1,847 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Absolute Value Equations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18201</md:content-id>
+  <md:title>Absolute Value Equations</md:title>
+  <md:abstract>This module introduces absolute value equations.</md:abstract>
+  <md:uuid>8231a0c3-3bc3-4317-bcd6-ffefedc16a9a</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/absolute-value/t/absolute-value-equations" strength="3">Absolute Value Equations Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+      <para id="id11307749">Absolute value is one of the simplest functions—and paradoxically, one of the most problematic.</para>
+      <para id="id12201610">On the face of it, nothing could be simpler: it just means “whatever comes in, a positive number comes out.”</para>
+      <equation id="element-505"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mn>5</m:mn>
+                            <m:mrow>
+                              <m:mo stretchy="false">∣</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow/>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ \lline 5 \rline =5}  {} # 
+ {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="element-407"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline  - 5 \rline =5} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id12202043">Absolute values seem to give us permission to ignore the whole nasty world of negative numbers and return to the second grade when all numbers were positive.</para>
+      <para id="id12027691">But consider these three equations. They look very similar—only the number changes—but the solutions are completely different.</para>
+<table id="element-402" frame="none" summary="A table showing three simple absolute value equations, their explanations and their results.">
+<title>Three Simple Absolute Value Equations</title>
+<tgroup cols="3" colsep="1">
+<tbody>
+  <row>
+    <entry>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>10</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline ="10"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </entry>
+    <entry>  <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>10</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline = - "10"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </entry>
+    <entry>  <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline =0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>10</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="10"} {}</m:annotation></m:semantics></m:math> works.  
+</entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>10</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="10"} {}</m:annotation></m:semantics></m:math> doesn’t work.  </entry>
+    <entry>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> is the only solution.</entry>
+  </row>
+  <row>
+    <entry>Hey, so does 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>10</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - "10"} {}</m:annotation></m:semantics></m:math>!</entry>
+    <entry>
+Neither does 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>10</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - "10"} {}</m:annotation></m:semantics></m:math>.
+    </entry>
+    <entry/>
+  </row>
+  <row>
+    <entry>Concisely, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mi>10</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= +- "10"} {}</m:annotation></m:semantics></m:math>.</entry>
+    <entry>
+Hey...<emphasis>absolute values are never negative!</emphasis>
+    </entry>
+    <entry/>
+  </row>
+</tbody>
+</tgroup>
+</table>
+    
+      <para id="id11589198">We see that the first problem has<emphasis> two solutions</emphasis>, the second problem has <emphasis>no solutions</emphasis>, and the third problem has <emphasis>one solution</emphasis>. This gives you an example of how things can get confusing with absolute values—and how you can solve things if you <emphasis>think</emphasis> more easily than with <emphasis>memorized rules</emphasis>.</para>
+      <para id="id11797980">For more complicated problems, follow a three-step approach.</para>
+      <list id="id8576642" list-type="enumerated"><item>Do the algebra to isolate the absolute value.</item>
+        <item>Then, <emphasis>think it through</emphasis> like the simpler problems above.</item>
+        <item>Finally, do more algebra to isolate <m:math><m:mi>x</m:mi></m:math>.</item>
+      </list>
+      <para id="id13159921">In my experience, most problems with this type of equation do not occur in the first and third step. And they do not occur because students try to think it through (second step) and don’t think it through correctly. They occur because students try to take “shortcuts” to avoid the second step entirely.</para>
+      <example id="element-129"><title> Absolute Value Equation (No Variable on the Other Side)</title>
+<para id="element-771"><m:math>
+  <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+    <m:mn> 3 </m:mn>
+    <m:mo> ⁢ </m:mo>
+      <m:mrow>
+        <m:mo> | </m:mo>
+          <m:mrow>
+            <m:mn> 2 </m:mn>
+            <m:mo> ⁢ </m:mo>
+            <m:mi> x </m:mi>
+          </m:mrow>
+        <m:mo> + </m:mo>
+        <m:mn> 1 </m:mn>
+        <m:mo> | </m:mo>
+      </m:mrow>
+    </m:mrow>
+    <m:mo> - </m:mo>
+    <m:mn> 7 </m:mn>
+   </m:mrow>
+    <m:mo> = </m:mo>
+    <m:mn> 5 </m:mn>
+ </m:mrow>
+
+<m:annotation encoding="StarMath 5.0"> size 12{3 \lline 2x+1 \rline  - 7=5} {}</m:annotation></m:semantics></m:math></para><list id="element-579" list-type="labeled-item">
+<item><label>Step 1:</label>
+
+Algebraically isolate the absolute value
+<list id="okay" list-type="bulleted"><item>
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mrow>
+    <m:mn> 3 </m:mn>
+    <m:mo> ⁢ </m:mo>
+      <m:mrow>
+        <m:mo> | </m:mo>
+          <m:mrow>
+            <m:mn> 2 </m:mn>
+            <m:mo> ⁢ </m:mo>
+            <m:mi> x </m:mi>
+          </m:mrow>
+        <m:mo> + </m:mo>
+        <m:mn> 1 </m:mn>
+        <m:mo> | </m:mo>
+      </m:mrow>
+    </m:mrow>
+    <m:mo> = </m:mo>
+    <m:mn> 12 </m:mn>
+  </m:mrow>
+<m:annotation encoding="StarMath 5.0"> size 12{3 \lline 2x+1 \rline ="12"} {}</m:annotation>
+    </m:semantics>
+  </m:math>
+</item>
+<item>
+<m:math>
+<m:semantics>
+  <m:mrow>
+    <m:mrow>
+      <m:mrow>
+        <m:mo> | </m:mo>
+          <m:mrow>
+            <m:mn> 2 </m:mn>
+            <m:mo> ⁢ </m:mo>
+            <m:mi> x </m:mi>
+          </m:mrow>
+        <m:mo> + </m:mo>
+        <m:mn> 1 </m:mn>
+        <m:mo> | </m:mo>
+      </m:mrow>
+    </m:mrow>
+    <m:mo> = </m:mo>
+    <m:mn> 4 </m:mn>
+  </m:mrow>
+<m:annotation encoding="StarMath 5.0"> size 12{ \lline 2x+1 \rline =4} {}</m:annotation>
+</m:semantics>
+</m:math>
+</item>
+</list></item>
+<item><label>Step 2:</label>
+
+Think!
+<list id="aaaaaa" list-type="bulleted"><item>For the moment, forget about the quantity 
+<m:math><m:semantics>
+        <m:mrow>
+          <m:mrow>
+            <m:mn> 2 </m:mn>
+            <m:mo> ⁢ </m:mo>
+            <m:mi> x </m:mi>
+          </m:mrow>
+        <m:mo> + </m:mo>
+        <m:mn> 1 </m:mn>
+       </m:mrow>
+<m:annotation encoding="StarMath 5.0"> size 12{2x+1} {}</m:annotation></m:semantics></m:math>; just think of it as <emphasis>something</emphasis>. The absolute value of “something” is 4. So, in analogy to what we did before, the “something” can either be 4, or –4. So that gives us two possibilities...</item>
+<item>
+       <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>2x</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+</item>
+<item>
+      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>2x</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+</item>
+</list>
+</item>
+	<item><label>Step 3:</label>
+
+Algebraically solve (both equations) for x
+<list id="jcrew" list-type="bulleted"><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>
+          <m:mrow>
+            <m:mn> 2 </m:mn>
+            <m:mo> ⁢ </m:mo>
+            <m:mi> x </m:mi>
+          </m:mrow>
+<m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x=3} {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow>
+          <m:mrow>
+            <m:mn> 2 </m:mn>
+            <m:mo> ⁢ </m:mo>
+            <m:mi> x </m:mi>
+          </m:mrow>
+<m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x= - 5} {}</m:annotation></m:semantics></m:math></item>
+<item><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= {  { size 8{3} }  over  { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math> or 
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= -  {  { size 8{5} }  over  { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </item></list></item></list><para id="element-594"><emphasis>So this problem has two answers:</emphasis> <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= {  { size 8{3} }  over  { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math> <emphasis>and</emphasis>  
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= -  {  { size 8{5} }  over  { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+</example>
+      
+      <example id="element-139"><title> Absolute Value Equation (No Variable on the Other Side)</title>
+<para id="element-39428390"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {6 \lline x - 2 \lline }  over  {5} } +7=4} {}</m:annotation></m:semantics></m:math></para>
+<list id="element-3248930" list-type="labeled-item"><item><label>Step 1: 
+Algebraically isolate the absolute value</label>
+
+<equation id="element-389"><m:math>
+<m:mfrac>
+<m:mrow>
+<m:mn>6</m:mn>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>|</m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn>5</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>-3</m:mn>
+</m:math></equation><equation id="element-95"><m:math>
+<m:mn>6</m:mn>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mn>-15</m:mn>
+</m:math></equation><equation id="element-792"><m:math>
+<m:mo>|</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>|</m:mo>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>-15</m:mn>
+<m:mn>6</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mn>-5</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math></equation>
+</item>
+<item><label> Step 2: Think!</label>The absolute value of “something” is
+
+      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+. But wait—absolute values are <emphasis>never </emphasis>negative! It can’t happen! So we don’t even need a third step in this case: the equation is impossible.
+
+</item>
+<item><emphasis>No solution.</emphasis></item>
+	</list>
+</example><para id="id12352248">The “think” step in the above examples was relatively straightforward, because there were no variables on the right side of the equation. When there are variables on the right side, you temporarily “pretend” that the right side of the equation is a positive number, and break the equation up accordingly. However, there is a price to be paid for this slight of hand: you have to check your answers, because <emphasis>they may not work even if you do your math correctly.</emphasis></para>
+      <example id="element-934"><title> Absolute Value Equation with Variables on Both Sides</title>
+<para id="element-310"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mrow>
+                      <m:mn>2x</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mtext>11</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>42</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline 2x+3 \rline = - "11"x+"42"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="element-836"><emphasis>We begin by approaching this in analogy to the first problem above, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline ="10"} {}</m:annotation></m:semantics></m:math>. We saw that 
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+could be either 10, or –10. So we will assume in this case that
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2x</m:mn>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2x+3} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+can be either
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>11</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>42</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - "11"x+"42"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+, or the negative of that, and solve both equations.</emphasis></para>
+<list id="element-796" list-type="labeled-item"><title>Problem One</title><item><equation id="equationa"><m:math>
+
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+
+<m:mo>=</m:mo>
+<m:mn>-11</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>42</m:mn>
+</m:math></equation></item>
+<item><equation id="equationab"><m:math>
+<m:mn>13</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>42</m:mn>
+</m:math></equation></item>
+<item><equation id="equationabc"><m:math>
+<m:mn>13</m:mn>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>39</m:mn>
+</m:math></equation>
+</item>
+<item><equation id="equationabcd"><m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math></equation></item>
+</list>
+<list id="element-386" list-type="labeled-item"><title>Problem Two</title><item><equation id="equationq">
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mn>11</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>42</m:mn>
+<m:mo>)</m:mo>
+</m:math></equation>
+</item>
+<item><equation id="equationqr"><m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>11</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>42</m:mn>
+</m:math></equation></item>
+<item><equation id="equationqrs"><m:math>
+<m:mn>-9</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>=</m:mo>
+<m:mn>-42</m:mn>
+</m:math></equation></item>
+<item><equation id="equationqrst"><m:math>
+<m:mn>-9</m:mn>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-45</m:mn>
+</m:math></equation></item>
+<item><equation id="equationqrstu"><m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math></equation></item></list><para id="element-222"><emphasis>So we have two solutions: <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=5} {}</m:annotation></m:semantics></m:math>. Do they both work? Let’s try them both.</emphasis></para><list id="element-919" list-type="enumerated"><title>Problem One</title><item><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mtext>11</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>42</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline 2 \( 3 \) +3 \rline = - "11" \( 3 \) +"42"} {}</m:annotation>
+          </m:semantics>
+        </m:math>. 
+      <list id="list_exam_3ab" list-type="bulleted"><item>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>9</m:mn><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline 9 \rline =9} {}</m:annotation></m:semantics></m:math>. 
+<m:math>
+  <m:mo> ✓ </m:mo>
+</m:math>
+</item></list></item></list><list id="element-981" list-type="enumerated"><title>Problem Two</title><item> 
+         <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mtext>11</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>42</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline 2 \( 5 \) +3 \rline = - "11" \( 5 \) +"42"} {}</m:annotation>
+          </m:semantics>
+        </m:math>. 
+  <list id="list_exam_3bc" list-type="bulleted"><item>
+
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mtext>13</m:mtext><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline "13" \rline = - "13"} {}</m:annotation></m:semantics></m:math>.
+<m:math>
+  <m:mo> ✗ </m:mo>
+</m:math>
+</item></list></item></list>
+</example>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <para id="id12354265">We see in this case that the first solution, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math>, worked; the second, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=5} {}</m:annotation></m:semantics></m:math>, did not. So the only solution to this problem is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id13000109">However, there was no way of knowing that in advance. For such problems, the only approach is to solve them twice, and then <emphasis>test both answers</emphasis>. In some cases, both will work; in some cases, neither will work. In some cases, as in this one, one will work and the other will not.</para>
+<note id="id1166944767510" type="Hard and fast rule"><label>Hard and fast rule</label> Whenever an absolute value equation has <emphasis>variables on both sides</emphasis>, you have to check your answer(s). Even if you do all the math perfectly, your answer(s) may not work. </note>
+      <para id="id12855755">OK, why is that? Why can you do all the math right and still get a wrong answer?</para>
+      <para id="id12855763">Remember that the problem 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline ="10"} {}</m:annotation></m:semantics></m:math> has two solutions, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline = - "10"} {}</m:annotation></m:semantics></m:math> has none. We started with the problem 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>11</m:mtext></m:mrow></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>42</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline 2x+3 \rline = - "11"x+"42"} {}</m:annotation></m:semantics></m:math>. OK, which is that like? Is the right side of the equation like 10 or –10? If you think about it, you can convince yourself that <emphasis>it depends on what</emphasis>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>
+<emphasis>is</emphasis>. After you solve, you may wind up with an 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-value that makes the right side positive; that will work. Or, you may wind up with an 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-value that makes the right side negative; that won’t work. But you can’t know until you get there.</para>
+
+  </content>
+</document>

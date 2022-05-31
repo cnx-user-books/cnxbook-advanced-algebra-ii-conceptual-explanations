@@ -1,0 +1,546 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Ellipses</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18247</md:content-id>
+  <md:title>Ellipses</md:title>
+  <md:abstract>This module introduces the definition and formula of an ellipse, including example problems.</md:abstract>
+  <md:uuid>24f37b53-802a-475b-989c-15c7a4d2702e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/conic-sections/t/the-ellipse" strength="3">Ellipse Video</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/conic-sections/t/the-ellipse" strength="3">Ellipse Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id8933403"><title>The Definition of an Ellipse</title>
+      
+      <para id="id9667617">An ellipse is a sort of squashed circle, sometimes referred to as an oval.</para>
+      <para id="id7644670"><title>Definition of an Ellipse</title>Take two points. (Each one is a <emphasis>focus;</emphasis> together, they are the <emphasis>foci.</emphasis>) An ellipse is the set of all points in a plane that have the following property: the distance from the point to one focus, <emphasis>plus</emphasis> the distance from the point to the other focus, is some constant.
+      </para>
+
+
+      <para id="id6713066">They just keep getting more obscure, don’t they? Fortunately, there is an experiment you can do, similar to the circle experiment, to show why this definition leads to an elliptical shape.</para>
+
+      <list id="id10426280" list-type="enumerated">
+  <title>Experiment: Drawing the Perfect Ellipse</title>
+        
+        <item>Lay a piece of cardboard on the floor.</item>
+        <item>Thumbtack one end of a string to the cardboard.</item>
+        <item>Thumbtack the other end of the string, elsewhere on the cardboard. The string should not be pulled taut: it should have some slack.</item>
+        <item>With your pen, pull the middle of the string back until it is taut.</item>
+        <item>Pull the pen all the way around the two thumbtacks, keeping the string taut at all times.</item>
+        <item>The pen will touch every point on the cardboard such that the distance to one thumbtack, plus the distance to the other thumbtack, is exactly one string length. And the resulting shape will be an ellipse. The cardboard is the “plane” in our definition, the thumbtacks are the “foci,” and the string length is the “constant distance.”</item>
+      </list>
+
+      <figure id="id6571797"><media id="id17567270" alt="A picture demonstrating how to draw a perfect ellipse with thumbtacks and string."><image src="../../media/graphics1-d968.png" mime-type="image/png" print-width="3in"/></media></figure>
+      <para id="id6526816">Do ellipses come up in real life? You’d be surprised how often. Here is my favorite example. For a long time, the orbits of the planets were assumed to be circles. However, this is incorrect: the orbit of a planet is actually in the shape of an ellipse. The sun is at one focus of the ellipse (<emphasis>not</emphasis> at the center). Similarly, the moon travels in an ellipse, with the Earth at one focus.</para>
+    </section>
+    <section id="id10362736"><title>The Formula of an Ellipse</title>
+      
+      <para id="id10257242">With ellipses, it is crucial to start by distinguishing <emphasis>horizontal</emphasis> from <emphasis>vertical.</emphasis></para>
+
+      <table id="id9413410" summary="">
+<title>Mathematical Formula for an Ellipse with its Center at the Origin</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>Horizontal</entry>
+              <entry>Vertical</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math> (a&gt;b)</entry>
+
+              <entry>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math> (a&gt;b)</entry>
+            </row>
+
+            <row>
+              <entry><media id="id17610806" alt="Picture of an horizontal ellipse with parts labeled"><image src="../../media/graphics2-4849.png" mime-type="image/png" print-width="3in"/></media></entry>
+              <entry><media id="id17610837" alt="Picture of an vertical ellipse with parts labeled"><image src="../../media/graphics3-3965.png" mime-type="image/png" print-width="3in"/></media></entry>
+            </row>
+          </tbody>
+          
+
+</tgroup>
+</table>
+
+
+
+<para id="ellipseformfigpara">And of course, the usual rules of permutations apply. For instance, if we replace <m:math><m:mi>x</m:mi></m:math> with <m:math><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>h</m:mi></m:math>, the ellipse moves to the right by <m:math><m:mi>h</m:mi></m:math>. So we have the more general form:</para>
+
+<table id="id9413410three" summary="">
+<title>Mathematical Formula for an Ellipse with its Center at xxx(h,k)</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+      <thead>
+        <row>
+          <entry>Horizontal</entry>
+          <entry>Vertical</entry>
+        </row>
+      </thead>
+
+      <tbody>
+        <row>
+          <entry>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>h</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mi>k</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { \( x - h \)  rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  { \( y - k \)  rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math> <m:math><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:math></entry>
+
+          <entry>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>h</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mi>k</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { \( x - h \)  rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } + {  { \( y - k \)  rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math> <m:math><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:math></entry>
+        </row>
+      </tbody>
+    
+
+</tgroup>
+</table>
+
+
+      <para id="id9572652">The key to understanding ellipses is understanding the three constants <m:math><m:mi>a</m:mi></m:math>, <m:math><m:mi>b</m:mi></m:math>, and <m:math><m:mi>c</m:mi></m:math>.</para>
+      <table id="id8478553" summary="">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry/>
+              <entry>Horizontal Ellipse</entry>
+              <entry>Vertical Ellipse</entry>
+            </row>
+          </thead>
+          <tbody>
+
+            <row>
+              <entry>Where are the foci?</entry>
+              <entry>Horizontally around the center</entry>
+              <entry>Vertically around the center</entry>
+            </row>
+            <row>
+              <entry>How far are the foci from the center?</entry>
+              <entry><m:math>
+<m:mi>c</m:mi>
+</m:math></entry>
+              <entry><m:math>
+<m:mi>c</m:mi>
+</m:math></entry>
+            </row>
+            <row>
+              <entry>What is the “major axis”?</entry>
+              <entry>The long (horizontal) way across</entry>
+              <entry>The long (vertical) way across</entry>
+            </row>
+            <row>
+              <entry>How long is the major axis?</entry>
+              <entry><m:math>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+</m:math></entry>
+              <entry>
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+</m:math></entry>
+            </row>
+            <row>
+              <entry>What is the “minor axis?”</entry>
+              <entry>The short (vertical) way across</entry>
+              <entry>The short (horizontal) way across</entry>
+            </row>
+            <row>
+              <entry>How long is the minor axis?</entry>
+              <entry><m:math>
+<m:mn>2</m:mn>
+<m:mi>b</m:mi>
+</m:math></entry>
+              <entry><m:math>
+<m:mn>2</m:mn>
+<m:mi>b</m:mi>
+</m:math></entry>
+            </row>
+            <row>
+              <entry>Which is biggest?</entry>
+              <entry><m:math><m:mi>a</m:mi></m:math> is biggest. <m:math>
+<m:mi>a</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mi>b</m:mi>
+</m:math>, and <m:math>
+<m:mi>a</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mi>c</m:mi>
+</m:math>.</entry>
+              <entry><m:math>
+<m:mi>a</m:mi>
+</m:math> is biggest. <m:math>
+<m:mi>a</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mi>b</m:mi>
+</m:math>, and <m:math>
+<m:mi>a</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mi>c</m:mi>
+</m:math>.</entry>
+            </row>
+            <row>
+              <entry>crucial relationship</entry>
+              <entry><m:math>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></entry>
+              <entry><m:math>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math></entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table>
+      <para id="id9740860">The following example demonstrates how all of these concepts come together in graphing an ellipse.</para>
+
+
+      <example id="id17558461"><title>Graphing an Ellipse</title><table id="id8018402" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Graph <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>49</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>
+</entry>
+              <entry>The problem. We recognize this as an ellipse because it has an 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and a 
+<m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term, and they both have the <emphasis>same sign</emphasis> (both positive in this case) but <emphasis>different coefficients</emphasis> (3 and 2 in this case).</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>54</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-49</m:mn>
+</m:math>
+</entry>
+              <entry>Group together the <m:math><m:mi>x</m:mi></m:math> terms and the 
+<m:math><m:mi>y</m:mi></m:math>
+ terms, with the number on the other side.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>y</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>-49</m:mn>
+</m:math>
+</entry>
+              <entry>Factor out the coefficients of the squared terms. In this case, there is no 
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> coefficient, so we just have to factor out the 9 from the 
+<m:math>
+<m:mi>y</m:mi>
+</m:math> terms.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>-49</m:mn>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>+</m:mo>
+<m:mn>81</m:mn>
+</m:math></entry>
+              <entry>Complete the square twice. Remember, adding 9 <emphasis>inside</emphasis> those parentheses is equivalent to adding 81 to the left side of the equation, so we must add 81 to the right side of the equation!</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>36</m:mn>
+</m:math>
+</entry>
+              <entry>Rewrite and simplify. Note, however, that we are still not in the standard form for an ellipse!</entry>
+            </row>
+            <row>
+              <entry>
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn>36</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn>4</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>
+</entry>
+              <entry>Divide by 36. This is because we need a 1 on the right, to be in our standard form!</entry>
+            </row>
+            <row>
+              <entry>Center: (2,–3)</entry>
+              <entry>We read the center from the ellipse the same way as from a circle.</entry>
+            </row>
+            <row>
+              <entry><m:math><m:mi>a</m:mi><m:mo>=</m:mo>
+<m:mn>6</m:mn></m:math>
+<m:math>
+<m:mi>b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math></entry>
+              <entry>Since the denominators of the fractions are 36 and 4, <m:math>
+<m:mi>a</m:mi>
+</m:math> and <m:math>
+<m:mi>b</m:mi>
+</m:math> are 6 and 2. But which is which? The key is that, for ellipses, <emphasis><m:math><m:mi>a</m:mi></m:math> is always greater than <m:math><m:mi>b</m:mi></m:math></emphasis>. The larger number is <m:math><m:mi>a</m:mi></m:math> and the smaller is <m:math><m:mi>b</m:mi></m:math>.</entry>
+            </row>
+            <row>
+              <entry>Horizontal ellipse</entry>
+              <entry>Going back to the equation, we see that the <m:math><m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> (the larger denominator) was under the <m:math>
+<m:mi>x</m:mi></m:math>, and the <m:math><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:math> (the smaller) was under the <m:math><m:mi>y</m:mi></m:math>. This means our equation is a <emphasis>horizontal</emphasis> ellipse. (In a vertical ellipse, the <m:math>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> would be under the
+ <m:math>
+<m:mi>y</m:mi>
+</m:math>.)</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:msqrt>
+<m:mn>32</m:mn>
+</m:msqrt>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+<m:msqrt>
+<m:mn>22</m:mn>
+</m:msqrt>
+</m:math>
+ (approximately <m:math><m:mn>5</m:mn>
+<m:mfrac><m:mn>1</m:mn>
+<m:mn>2</m:mn></m:mfrac>
+</m:math>)</entry>
+              <entry>We need <m:math><m:mi>c</m:mi></m:math> if we are going to graph the foci. How do we find it? From the relationship <m:math>
+<m:msup>
+<m:mi>a</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>b</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> which always holds for ellipses.</entry>
+            </row>
+            <row>
+              <entry>
+             <media id="id17626822" alt="A horizontal ellipse centered at (2,-3)."><image src="../../media/elps1.PNG" mime-type="image/png" print-width="2in"/></media>
+
+      </entry>
+              <entry>So now we can draw it. Notice a few features:
+          
+          The <emphasis>major axis</emphasis> is horizontal since this is a horizontal ellipse. It starts <m:math>
+<m:mi>a</m:mi></m:math> to the left of center, and ends <m:math><m:mi>a</m:mi></m:math> to the right of center. So its length is <m:math>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+</m:math>, or 12 in this case.The <emphasis>minor axis</emphasis> starts <m:math>
+<m:mi>b</m:mi>
+</m:math>
+ above the center and ends <m:math>
+<m:mi>b</m:mi>
+</m:math> below, so its length is 4.The foci are about <m:math>
+<m:mn>5</m:mn>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+</m:math> from the center. </entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+</tgroup>
+</table>
+      </example>
+    </section>
+  </content>
+</document>

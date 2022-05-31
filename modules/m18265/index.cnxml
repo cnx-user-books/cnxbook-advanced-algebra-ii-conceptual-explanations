@@ -1,0 +1,52 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Conic Concepts</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18265</md:content-id>
+  <md:title>Conic Concepts</md:title>
+  <md:abstract>This module introduces the concept of conic sections in Algebra.</md:abstract>
+  <md:uuid>c79a8eef-933b-4f8a-9043-dae854ceb43e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/conic-sections/t/conic-section-formulas" strength="3">Conic Section Formulas Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/conic-sections/t/introduction-to-conic-sections" strength="3">Conic Sections Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+
+      <para id="id3612924">So far, we have talked about how to graph two shapes: lines, and parabolas. This unit will discuss parabolas in more depth. It will also discuss circles, ellipses, and hyperbolas. These shapes make up the group called the <emphasis>conic sections</emphasis>: all the shapes that can be created by intersecting a <emphasis>plane</emphasis> with a <emphasis>double cone</emphasis>.</para>
+      <table id="id3352306" summary="">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>
+      <media id="id4636106" alt="A picture of two cones connected at the tips."><image src="../../media/cnc1.PNG" mime-type="image/png" print-width="3in"/></media>
+      </entry>
+              <entry>On the left is a <emphasis>double cone.</emphasis>If you intersect the double cone with a horizontal plane, you get a <emphasis>circle.</emphasis>If you tilt the plane a bit, you get an <emphasis>ellipse</emphasis> (as in the bad clip art picture on the right).If you tilt the plane more, so it never hits the other side of the cone, you get a <emphasis>parabola.</emphasis>If the plane is vertical, so it hits both cones, you get a <emphasis>hyperbola.</emphasis></entry>
+              <entry>
+            <media id="id41644234" alt="A picture of a cone intersected with a plane."><image src="../../media/cnc2.PNG" mime-type="image/png" print-width="3in"/></media>
+      </entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup>
+</table>
+      <para id="id3663229">We are going to discuss each of these shapes in some detail. Specifically, for each shape, we are going to provide...</para>
+      <list id="id3489301" list-type="bulleted">
+        <item>A formal <emphasis>definition</emphasis> of the shape, and</item>
+        <item>The <emphasis>formula</emphasis> for graphing the shape</item>
+      </list>
+      <para id="id3416705">These two things—the definition, and the formula—may in many cases seem unrelated. But you will be doing work in the text exercises to show, for each shape, how the definition <emphasis>leads to</emphasis> the formula.</para>
+
+
+  </content>
+</document>

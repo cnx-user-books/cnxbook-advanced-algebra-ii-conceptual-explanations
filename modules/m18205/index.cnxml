@@ -1,0 +1,751 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Inequalities</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18205</md:content-id>
+  <md:title>Inequalities</md:title>
+  <md:abstract>This module introduces the concept of inequalities.</md:abstract>
+  <md:uuid>2b4e13aa-0aec-49d5-b64e-e0f2936f8216</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/solving-and-graphing-inequalities/t/solving-and-graphing-inequalities-using-multiplication-or-division" strength="3">Solving Inequalities Using Multiplication Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/linear-inequalities/t/solving-a-three-part-linear-inequality" strength="3">Solving Multi Step Inequalities Video</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/solving-and-graphing-inequalities/t/solving-and-graphing-compound-inequalities" strength="3">Compound Inequalities Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/solving-and-graphing-inequalities/t/linear-inequalities" strength="3">Linear Inequalities Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+      
+      <para id="id9419940">The symbols for inequalities are familiar:</para>
+      <list id="element-936" list-type="bulleted"><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;7} {}</m:annotation></m:semantics></m:math> “<m:math><m:mi> x </m:mi></m:math> is less than 7”</item>
+	<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;7} {}</m:annotation></m:semantics></m:math> “<m:math><m:mi> x </m:mi></m:math> is greater than 7” </item>
+	<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 7} {}</m:annotation></m:semantics></m:math> “<m:math><m:mi> x </m:mi></m:math> is less than or equal to 7” </item>
+<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 7} {}</m:annotation></m:semantics></m:math> “<m:math><m:mi> x </m:mi></m:math> is greater than or equal to 7” </item></list>
+      
+      
+      
+      <para id="id9182613">If you have trouble remembering which is which, it may be helpful to remember that the larger side of the
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">&lt;</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{&lt;} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+
+symbol always goes with the larger number. Hence, when you write 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;7} {}</m:annotation></m:semantics></m:math> you can see that the 7 is the larger of the two numbers. Some people think of the
+
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">&lt;</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{&lt;} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+
+symbol as an alligator’s mouth, which always opens toward the largest available meal!</para>
+      <para id="id9182685">Visually, we can represent these inequalities on a number line. An open circle
+<m:math>
+		<m:mrow>
+			<m:mo> ○ </m:mo>
+		</m:mrow>
+	</m:math>
+is used to indicate a boundary that is not a part of the set; a closed circle
+<m:math>
+		<m:mo> ● </m:mo>
+	</m:math>
+is used for a boundary that is a part of the set.</para>
+      
+<figure id="num_line_lt"><subfigure id="lt7">
+          <media id="id1170428973604" alt="A number line w/ the shaded interval (-∞, 7) "><image src="../../media/num_line_1.png" mime-type="image/png" print-width="4in"/></media>
+
+          <caption>
+Includes all numbers less than 7, but not 7;
+            <m:math>
+              <m:mi> x </m:mi>
+              <m:mo> &lt; </m:mo>
+              <m:mn> 7 </m:mn>
+            </m:math>
+;
+            <m:math>
+              <m:mrow>
+                <m:mo> ( </m:mo>
+                <m:mo> - </m:mo>
+                <m:mo> ∞ </m:mo>
+                <m:mo> , </m:mo>
+                <m:mn> 7 </m:mn>
+                <m:mo> ) </m:mo>
+              </m:mrow>
+            </m:math>
+           </caption>
+          </subfigure>
+<subfigure id="lt7_2">
+           <media id="id1959463" alt="A number line w/ the shaded interval (-∞, 7] "><image src="../../media/num_line_2.png" mime-type="image/png" print-width="4in"/></media>
+          <caption>
+Includes all numbers less than 7, <emphasis>and</emphasis> 7 itself;
+            <m:math>
+              <m:mi> x </m:mi>
+              <m:mo> ≤ </m:mo>
+              <m:mn> 7 </m:mn>
+            </m:math>
+;
+            <m:math>
+              <m:mrow>
+                <m:mo> ( </m:mo>
+                <m:mo> - </m:mo>
+                <m:mo> ∞ </m:mo>
+                <m:mo> , </m:mo>
+                <m:mn> 7 </m:mn>
+                <m:mo> ] </m:mo>
+              </m:mrow>
+            </m:math>
+           </caption>
+        </subfigure></figure>
+      <section id="id-0953680029002">
+        <title>AND and OR</title>
+        <para id="id5907333">More complicated intervals can be represented by combining these symbols with the logical operators <term>AND</term> and <term>OR</term>.</para>
+        <para id="id5907340">For instance, “
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 3} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;6} {}</m:annotation></m:semantics></m:math>” indicates that
+
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+
+must be<emphasis> both</emphasis> greater-than-or-equal-to 3, <emphasis>and</emphasis> less-than 6. A number only belongs in this set if it meets <emphasis>both</emphasis> conditions. Let’s try a few numbers and see if they fit.</para>
+        <table id="id5907476" summary="A table showing sample values for x and plugging them into the inequality to figure out if this satisfies one part, or both parts of the inequality simultaneously.">
+
+<tgroup cols="4"><colspec colnum="1" colname="sampnum"/>
+            <colspec colnum="2" colname="three"/>
+            <colspec colnum="3" colname="six"/>
+            <colspec colnum="4" colname="threeandsix"/>
+            <thead>
+              <row>
+                <entry>Sample number</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">≥</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 3} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">&lt;</m:mo>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x&lt;6} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 3} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;6} {}</m:annotation></m:semantics></m:math> (both true)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>8</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x=8} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+
+                  <emphasis>Yes</emphasis>
+                </entry>
+                <entry>
+   
+                  <emphasis>No</emphasis>
+                </entry>
+                <entry>
+  
+                  <emphasis>No</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+ 
+                  <emphasis>No</emphasis>
+                </entry>
+                <entry>
+    
+                  <emphasis>Yes</emphasis>
+                </entry>
+                <entry>
+
+                  <emphasis>No</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x=4} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+
+                  <emphasis>Yes</emphasis>
+                </entry>
+                <entry>
+
+                  <emphasis>Yes</emphasis>
+                </entry>
+                <entry>
+
+                  <emphasis>Yes</emphasis>
+                </entry>
+              </row>
+            </tbody>
+
+
+
+
+</tgroup>
+</table>
+
+        <para id="id9988252">We can see that a number must be <emphasis>between</emphasis> 3 and 6 in order to meet this AND condition.</para>
+
+<figure id="id9988265"><media id="id1170429046548" alt="A number line w/ the shaded interval [3, 6) "><image src="../../media/num_line_3.png" mime-type="image/png" print-width="4in"/></media><caption><m:math>
+  <m:mrow>
+    <m:mi> x </m:mi>
+    <m:mo> ≥ </m:mo>
+    <m:mn> 3 </m:mn>
+    <m:mtext>  AND  </m:mtext>
+    <m:mi> x </m:mi>
+    <m:mo> &lt; </m:mo>
+    <m:mn> 6 </m:mn>
+  </m:mrow>
+</m:math>
+
+All numbers that are greater-than-or-equal-to 3, <emphasis>and are also less</emphasis> than 6;
+<m:math>
+  <m:mrow>
+    <m:mn> 3 </m:mn>
+    <m:mo> ≤ </m:mo>
+    <m:mi> x </m:mi>
+    <m:mo> &lt; </m:mo>
+    <m:mn> 6 </m:mn>
+  </m:mrow>
+</m:math>
+</caption></figure>
+
+
+<para id="id5914881">This type of set is sometimes represented concisely as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">≤</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 &lt;= x&lt;6} {}</m:annotation></m:semantics></m:math>, which visually communicates the idea that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is <emphasis>between</emphasis> 3 and 6. This notation always indicates an AND relationship.</para>
+        <para id="id5914995">“
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt; 3} {}</m:annotation></m:semantics></m:math> OR 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;=6} {}</m:annotation></m:semantics></m:math>” is the exact opposite. It indicates that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> must be <emphasis>either</emphasis> less-than 3, <emphasis>or</emphasis> greater-than-or-equal-to 6. Meeting both conditions is OK, but it is not necessary.</para>
+        <table id="id10067740" summary="A table showing sample values for x and plugging them into the inequality to figure out if this satisfies one part, or both parts of the inequality simultaneously.">
+<tgroup cols="4"><colspec colnum="1" colname="sampnum"/>
+            <colspec colnum="2" colname="three"/>
+            <colspec colnum="3" colname="six"/>
+            <colspec colnum="4" colname="threeorsix"/>
+            <thead>
+              <row>
+                <entry>Sample number</entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">&lt;</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x &lt; 3} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">≥</m:mo>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x&gt;6} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt; 3} {}</m:annotation></m:semantics></m:math> OR 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;6} {}</m:annotation></m:semantics></m:math> (either one or both true)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>8</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x=8} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+            
+                  <emphasis>No</emphasis>
+                </entry>
+                <entry>
+
+                  <emphasis>Yes</emphasis>
+                </entry>
+                <entry>
+
+                  <emphasis>Yes</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+ 
+                  <emphasis>Yes</emphasis>
+                </entry>
+                <entry>
+          
+                  <emphasis> No</emphasis>
+                </entry>
+                <entry>
+  
+                  <emphasis>Yes</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{x=4} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>
+                
+                  <emphasis>No</emphasis>
+                </entry>
+                <entry>
+             
+                  <emphasis>No</emphasis>
+                </entry>
+                <entry>
+     
+                  <emphasis>No</emphasis>
+                </entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+</tgroup>
+</table>
+        <para id="id9196193">Visually, we can represent this set as follows:</para>
+        <figure id="id9196202"><media id="id2312340" alt="The number line with (-infinity,3) and [6,infinity] intervals shaded. "><image src="../../media/num_line_4.png" mime-type="image/png" print-width="4in"/></media><caption>All numbers that are either less than 3, or greater-than-or-equal-to 6;
+<m:math>
+  <m:mrow>
+    <m:mi> x </m:mi>
+    <m:mo> &lt; </m:mo>
+    <m:mn> 3 </m:mn>
+    <m:mtext>    OR    </m:mtext>
+    <m:mi> x </m:mi>
+    <m:mo> ≥ </m:mo>
+    <m:mn> 6 </m:mn>
+  </m:mrow>
+</m:math></caption></figure>
+        <para id="id9196225">Both of the above examples are meaningful ways to represent useful sets. It is possible to put together many combinations that are perfectly logical, but are not meaningful or useful. See if you can figure out simpler ways to write each of the following conditions.</para>
+        <list id="id9196239" list-type="enumerated"><item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 3} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;6} {}</m:annotation></m:semantics></m:math></item>
+	<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 3} {}</m:annotation></m:semantics></m:math> OR 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;6} {}</m:annotation></m:semantics></m:math></item>
+	<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;3} {}</m:annotation></m:semantics></m:math> AND 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;6} {}</m:annotation></m:semantics></m:math></item>
+	<item><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;3} {}</m:annotation></m:semantics></m:math> OR 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;6} {}</m:annotation></m:semantics></m:math></item>
+</list>
+        <para id="id9162932">If you are not sure what these mean, try making tables of numbers like the ones I made above. Try a number below 3, a number between 3 and 6, and a number above 6. See when each condition is true. You should be able to convince yourself of the following:</para>
+        <list id="id10066603" list-type="enumerated"><item>The first condition above is filled by any number greater than 6; it is just a big complicated way of writing 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;6} {}</m:annotation></m:semantics></m:math>.</item>
+          <item>Similarly, the second condition is the same as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 3} {}</m:annotation></m:semantics></m:math>.</item>
+          <item>The third condition is <emphasis>never</emphasis> true.</item>
+          <item>The fourth condition is <emphasis>always</emphasis> true.</item>
+        </list>
+        <para id="id10066741">I have to pause here for a brief philosophical digression. The biggest difference between a good math student, and a poor or average math student, is that the good math student works to <emphasis>understand</emphasis> things; the poor student tries to <emphasis>memorize rules</emphasis> that will lead to the right answer, without actually understanding them.</para>
+        <para id="id10066763">The reason this unit (Inequalities and Absolute Values) is right here at the beginning of the book is because it distinguishes sharply between these two kinds of students. Students who try to understand things will follow the previous discussion of AND and OR and will think about it until it makes sense. When approaching a new problem, they will try to make logical sense of the problem and its solution set.</para>
+        <para id="id10066779">But many students will attempt to learn a set of mechanical rules for solving inequalities. These students will often end up producing nonsensical answers such as the four listed above. Instead of thinking about what their answers mean, they will move forward, comfortable because “it looks sort of like the problem the teacher did on the board.”</para>
+        <para id="id10066796">If you have been accustomed to looking for mechanical rules to follow, now is the time to begin changing your whole approach to math. It’s not too late!!! Re-read the previous section carefully, line by line, and make sure each sentence makes sense. Then, as you work problems, think them through in the same way: <emphasis>not</emphasis> “whenever I see this kind of problem the answer is an <emphasis>and</emphasis>” but instead “What does AND mean? What does OR mean? Which one correctly describes this problem?”</para>
+        <para id="id10066832">All that being said, there are still a few hard-and-fast rules that I will point out as I go. These rules are useful—but they do not relieve you of the burden of thinking.</para>
+        <para id="id10066843">One special kind of OR is the symbol 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- {}} {}</m:annotation></m:semantics></m:math>. Just as 
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">≥</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{&gt;=} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+means “greater than OR equal to,” 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- {}} {}</m:annotation></m:semantics></m:math> means “plus OR minus.” Hence, if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } =9} {}</m:annotation></m:semantics></m:math>, we might say that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= +- 3} {}</m:annotation></m:semantics></m:math>; that is, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> can be either 3, or –3.</para>
+        <para id="id10078106">Another classic sign of “blind rule-following” is using this symbol with inequalities. What does it mean to say 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt; +- 3} {}</m:annotation></m:semantics></m:math>? If it means anything at all, it must mean “
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;3} {}</m:annotation></m:semantics></m:math> OR 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt; - 3} {}</m:annotation></m:semantics></m:math>”; which, as we have already seen, is just a sloppy shorthand for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;3} {}</m:annotation></m:semantics></m:math>. If you find yourself using an inequality with a 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- {}} {}</m:annotation></m:semantics></m:math> sign, go back to think again about the problem.</para>
+<note id="id1170427995932" type="Hard and fast rule"><label>Hard and fast rule</label>
+Inequalities and the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- {}} {}</m:annotation></m:semantics></m:math> symbol don’t mix.
+</note>
+       </section>
+
+      <section id="id-847896721837">
+        <title>Solving Inequalities</title>
+        <para id="id10076336">Inequalities are solved just like equations, with one key exception.</para>
+
+       
+<note id="id1170428982393" type="Hard and fast rule"><label>Hard and fast rule</label>
+Whenever you <emphasis>multiply or divide by a negative number</emphasis>, the sign changes.
+</note>
+        <para id="id10076363">You can see how this rule affects the solution of a typical inequality problem:</para>
+        
+        
+        
+        
+        <table id="element-50" summary="A table showing the step-by-step of solving an inequality. ">
+
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>3x</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">&gt;</m:mo>
+                      <m:mrow>
+                        <m:mn>5x</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mtext>10</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{3x+4&gt;5x+"10"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </entry>
+    <entry>  <emphasis>An “inequality” problem</emphasis>
+        </entry>
+  </row>
+  <row>
+    <entry>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">&gt;</m:mo>
+                      <m:mtext>10</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ - 2x+4&gt;"10"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </entry>
+    <entry>  <emphasis>subtract</emphasis>
+<m:math><m:mrow><m:mn>5</m:mn><m:mo> ⁢ </m:mo> <m:mi> x </m:mi></m:mrow></m:math>
+<emphasis>from both sides</emphasis>
+        </entry>
+  </row>
+  <row>
+    <entry>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2x</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">&gt;</m:mo>
+                      <m:mn>6</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ - 2x&gt;6} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </entry>
+    <entry>  <emphasis>subtract 4 from both sides</emphasis>
+        </entry>
+  </row>
+  <row>
+    <entry>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x&lt; - 3} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </entry>
+    <entry>  <emphasis>divide both sides by –2, and change sign!</emphasis>
+        </entry>
+  </row>
+</tbody>
+
+
+</tgroup>
+</table>
+
+<para id="id5901988">As always, being able to solve the problem is important, but even more important is knowing <emphasis>what the solution means</emphasis>. In this case, we have concluded that any number less than –3 will satisfy the original equation, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x+4&gt;5x+"10"} {}</m:annotation></m:semantics></m:math>. Let’s test that.</para>
+        
+        
+<table id="element-148" summary="a table showing if for the given values of x, if it solves the inequality. ">
+
+<tgroup cols="4"><tbody>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 4} {}</m:annotation></m:semantics></m:math>:
+</entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 \(  - 4 \) +4&gt;5 \(  - 4 \) +"10"} {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 8&gt; - "10"} {}</m:annotation></m:semantics></m:math></entry>
+    <entry>
+Yes.
+    </entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 2} {}</m:annotation></m:semantics></m:math>:</entry>
+    <entry>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 \(  - 2 \) +4&gt;5 \(  - 2 \) +"10"} {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 2&gt;0} {}</m:annotation></m:semantics></m:math></entry>
+    <entry>
+    No.
+</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="id9615488">As expected, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 4} {}</m:annotation></m:semantics></m:math> (which is less than –3) works; 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 2} {}</m:annotation></m:semantics></m:math> (which is not) does not work.</para>
+        <para id="id9993936">Why do you reverse the inequality when multiplying or dividing by a negative number? Because negative numbers are backward! 5 is greater than 3, but –5 is <emphasis>less than</emphasis> –3. Multiplying or dividing by negative numbers moves you to the other side of the number line, where everything is backward.</para>
+        <figure id="id9993979"><media id="id1909331" alt="A number line illustration demonstrating the effects of multiplying and/or dividing an inequality by a negative number."><image src="../../media/num_line_rainbow.png" mime-type="image/png" print-width="4in"/></media><caption>Multiplying by -1 moves you "over the rainbow" to the land where everything is backward!</caption></figure>
+      </section>
+  </content>
+</document>

@@ -1,0 +1,420 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Finding a Parabolic Function for any Three Points</title>
+  <metadata>
+  <md:content-id>m18279</md:content-id><md:title>Finding a Parabolic Function for any Three Points</md:title>
+  <md:abstract>This module introduces the concept of modeling data with parabolic functions in Algebra.</md:abstract>
+  <md:uuid>c439689b-06a3-4462-8a41-aad1fc7fc2dd</md:uuid>
+</metadata>
+
+<content>
+    <section id="id10375968"><title>Finding a Parabolic Function for any Three Points</title>
+      
+      <para id="id11165881">Any two points are joined by a line. Any <emphasis>three</emphasis> points are joined by a <emphasis>vertical parabola</emphasis>.</para>
+      <para id="id11294733">Let’s start once again with the exceptions. Once again, if any two of the points are vertically aligned, then no function can join them. However, there is no an additional exception—if all three points <emphasis>lie on a line</emphasis>, then no parabola joins them. For instance, no parabola contains the three points (1,3), (2,5), and (5,11). In real life, of course, if we wanted to model those three points, we would be perfectly happy to use the line <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math> instead of a parabola.</para>
+      <para id="id10285929">However, if three points <emphasis>are not vertically aligned</emphasis> and <emphasis>do not lie on a line</emphasis>, it is always possible to find a vertical parabola that joins them. The process is very similar to the process we used for a line, except that the starting equation is different.</para>
+      <example id="eip-719"><title>Finding a Vertical Parabola to Fit Three Points</title><para id="eip-792"><emphasis>Find a vertical parabola containing the points (-2,5), (–1,6), and (3,–10).</emphasis>
+  </para>
+
+  <para id="problem">The problem. As with our example earlier, this problem could easily come from an attempt to find a function to model real-world data.</para>
+
+  <para id="equation"><m:math display="block">
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+</m:math></para>
+
+<para id="equation2">This is the equation for any vertical parabola. Our job is to find <m:math>
+<m:mi>a</m:mi>
+</m:math>,
+<m:math>
+<m:mi>b</m:mi>
+</m:math>, and 
+<m:math>
+<m:mi>c</m:mi>
+</m:math>. Note that this starting point is the same for any problem with three points, just as any problem with two points starts out 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math>.</para><para id="eip-318"><m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mn>5</m:mn>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mrow>
+  <m:mi>a</m:mi>
+  <m:mo>(</m:mo>
+  <m:mn>-2</m:mn>
+  <m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>(</m:mo>
+<m:mn>–2</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>6</m:mn>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mrow>
+  <m:mi>a</m:mi>
+  <m:mo>(</m:mo>
+  <m:mn>–1</m:mn>
+  <m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>(</m:mo>
+<m:mn>–1</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>–10</m:mn>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mrow>
+  <m:mo>(</m:mo>
+  <m:mn>3</m:mn>
+  <m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para><para id="eip-38">Each point represents an <m:math><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:math> pair that must create a true equation in our function. Hence, we can plug each point in for <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math> to find three equations that must be true. We can now solve for our 3 unknowns.</para><para id="eip-210">Rewrite the above three equations in a more standard form:</para><para id="eip-642"><m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mn>4</m:mn>
+<m:mi>a</m:mi>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+<m:mi>b</m:mi>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>a</m:mi>
+<m:mo>–</m:mo>
+<m:mi>b</m:mi>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn>9</m:mn>
+<m:mi>a</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mi>b</m:mi>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:mn>–10</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para><para id="eip-13">Uh-oh. Now what? In the linear example, we used elimination or substitution to solve for the two variables. How do we solve three?  Oh, yeah. Matrices! Rewrite the above three equations as <m:math>
+<m:mo>[</m:mo>
+<m:mi>A</m:mi>
+<m:mo>]</m:mo>
+<m:mo>[</m:mo>
+<m:mi>X</m:mi>
+<m:mo>]</m:mo>
+<m:mo>=</m:mo>
+<m:mo>[</m:mo>
+<m:mi>B</m:mi>
+<m:mo>]</m:mo>
+</m:math>, where 
+<m:math>
+<m:mo>[</m:mo>
+<m:mi>X</m:mi>
+<m:mo>]</m:mo>
+<m:mo>=</m:mo>
+<m:mo>[</m:mo>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi>a</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>b</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi>c</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+<m:mo>]</m:mo>
+</m:math>
+            
+                 is what we want.</para><para id="eip-963"><m:math display="block">
+<m:mo>[</m:mo>
+<m:mi>A</m:mi>
+<m:mo>]</m:mo>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>4</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>9</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>3</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+4 {} #  - 2 {} # 1 {} ##
+1 {} #  - 1 {} # 1 {} ##
+9 {} # 3 {} # 1{}
+}  right ]} {}</m:annotation></m:semantics></m:math>
+
+<m:math display="block"><m:mo>[</m:mo>
+<m:mi>B</m:mi>
+<m:mo>]</m:mo>
+<m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>5</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>6</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+5 {} ##
+6 {} ##
+ - "10"
+}  right ]} {}</m:annotation></m:semantics></m:math></para><para id="eip-101"><m:math display="block">
+<m:msup>
+<m:mrow>
+  <m:mo>[</m:mo>
+  <m:mi>A</m:mi>
+  <m:mo>]</m:mo>
+</m:mrow>
+<m:mn>–1</m:mn>
+</m:msup>
+<m:mo>[</m:mo>
+<m:mi>B</m:mi>
+<m:mo>]</m:mo>
+<m:mo>=</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ matrix {
+ - 1 {} ##
+ - 2 {} ##
+5
+}  right ]} {}</m:annotation></m:semantics></m:math></para><para id="eip-406">From the calculator, of course. Remember what this means! It means that <m:math>
+<m:mi>a</m:mi>
+<m:mo>=</m:mo>
+<m:mn>–1</m:mn>
+</m:math>, 
+<m:math>
+<m:mi>b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>–2</m:mn>
+</m:math>, and 
+<m:math>
+<m:mi>c</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math>. We can now plug these into our original equation, <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+</m:math>.</para><para id="eip-304"><m:math display="block">
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>–</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>
+</para><para id="eip-866">So this is the equation we were looking for.</para>
+  </example>
+      <para id="id10078035">Did it work? Remember that we were looking for a parabola that contained the three points(–2,5), (–1,6), and (3,–10). If this parabola contains those three points, then our job is done. Let’s try the first point.</para>
+      <equation id="element-94"><m:math>
+<m:mn>5</m:mn>
+<m:mover>
+<m:mo>=</m:mo>
+<m:mo>?</m:mo>
+</m:mover>
+<m:mo>-</m:mo>
+<m:msup>
+<m:mrow>
+  <m:mo>(</m:mo>
+  <m:mo>-</m:mo>
+  <m:mn>2</m:mn>
+  <m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>
+</equation>
+      <para id="id11071875"><m:math>
+<m:mi>5</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>4</m:mn>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>
+<media id="id19925236" alt=""><image src="../../media/graphics3-3794.png" mime-type="image/png" height="14" width="14"/></media></para>
+      <para id="id10323076">So the parabola does contain the point (-2,5). You can confirm for yourself that it also contains the other two points.</para>
+      <para id="id10860737">Finally, remember what this means! If we had measured some real-world phenomenon and found the three points (–2,5), (–1,6), and (3,–10), we would now <emphasis>suspect </emphasis>that the function <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>–</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+</m:math>
+ might serve as a model for this phenomenon.</para>
+      <para id="id11400080">This model <emphasis>predicts</emphasis> that if we make a measurement at 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>3</m:mn>
+</m:math> we will find that 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math>. If we made such a measurement and it matched the prediction, we would gain greater confidence in our model. On the other hand, if the measurement was far off the prediction, we would have to rethink our model.</para>
+      <section id="id11346522">
+        <title>A surprising application: “secret sharing”</title>
+        <para id="id10739646">Bank vaults are commonly secured by a method called “secret sharing.” The goal of a secret sharing system runs something like this: if any three employees enter their secret codes at the <emphasis>same time</emphasis>, the vault will open. But any two employees together cannot open the vault.</para>
+        <para id="id10511978">Secret sharing is implemented as follows.</para>
+        <list id="id11485387" list-type="bulleted"><item>Choose a parabolic function—that is, choose the numbers <m:math>
+<m:mi>a</m:mi></m:math>, 
+<m:math>
+<m:mi>b</m:mi>
+</m:math>, and 
+<m:math>
+<m:mi>c</m:mi>
+</m:math> in the equation 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+</m:math>. This function is chosen at random, and is not programmed into the vault or given to any employee.</item>
+          <item>The actual number that will open the vault is the y-intercept of the parabola: that is, the y-value of the parabola when 
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>. This number is not given to any employee.</item>
+          <item>Each employee’s secret code is <emphasis>one point on the parabola</emphasis>.</item>
+        </list>
+        <para id="id10048781">When three employees enter their secret codes at the same time, the vault computer uses the three points to compute 
+<m:math>
+<m:mi>a</m:mi></m:math>,
+<m:math>
+<m:mi>b</m:mi>
+</m:math>, and 
+<m:math>
+<m:mi>c</m:mi>
+</m:math> for the parabola. As we have seen, this computation can be done quickly and easy using inverse matrices and matrix multiplication, both of which are easy algorithms to program into a computer. Once the computer has those three numbers, it computes the y-value when <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>, and uses this number to open the vault.</para>
+        <para id="id12039110"><emphasis>Any three</emphasis> employees—that is, any three points—are enough to uniquely specify the parabola. But if you only have two points, you are no closer to the answer than when you started: the secret y value could still be, literally, any number at all.</para>
+        <para id="id9796296">Note also that the system is easily extendable. That is, if you want to say that <emphasis>four </emphasis>employees are required to open the vault, you just move up to a third-order polynomial, 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>c</m:mi>
+<m:mo>+</m:mo>
+<m:mi>d</m:mi>
+</m:math>. The resulting equations—four equations with four unknowns—are just as easy, with matrices, as three were.</para>
+      </section>
+    </section>
+  </content>
+</document>

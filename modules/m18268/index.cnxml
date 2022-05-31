@@ -1,0 +1,138 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Parabolas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18268</md:content-id>
+  <md:title>Parabolas</md:title>
+  <md:abstract>This module discusses parabolas and how they relate to conic sections in Algebra. Includes example problems.</md:abstract>
+  <md:uuid>efe592e1-9bc4-450c-9eed-5df204db2b38</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-the-vertex-of-a-parabola-by-completing-the-square" strength="3">Vertex of a Parabola Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/finding-intercepts-domain-range-and-vertex-of-a-parabola" strength="3">Parabola Intercepts Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/focus-and-directrix-of-a-parabola" strength="3">Parabola Focus Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/quadratic-equations-and-inequalities/t/introduction-to-parabolas" strength="3">Parabola Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id9260988"><title>The Definition of a Parabola</title>
+      
+      <para id="id10214522">Based on the discussion of circles, you might guess that the definition of a parabola will take the form: “The set of all points that...” and you would be correct. But the definition of a parabola is more complicated than that of a circle.</para>
+      <para id="id11962578"><title>Definition of a Parabola</title>Take a point (called the <emphasis>focus</emphasis>) and a horizontal line (the <emphasis>directrix)</emphasis> that does not contain that point. The set of all points in a plane that are the <emphasis>same distance from the focus as from the directrix</emphasis> forms a parabola.
+      </para>
+
+      <para id="id11532844">In the text, you begin with a specific example of this process. The focus is (0,3) and the directrix is the line <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>–3</m:mn>
+</m:math>. If we use our “club” analogy again, we could say that this time, a point is a member of our club if its distance to (0,3) is the same as its distance to 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>–3</m:mn>
+</m:math>.</para>
+      <para id="id7519341">The resulting shape looks something like this:</para>
+      <figure id="id4665882"><media id="id16886460" alt="Parabola with focus at (0,3)"><image src="../../media/graphics1-f66f.png" mime-type="image/png" print-width="3in"/></media></figure>
+      <para id="id13774566">You may recall that a circle is entirely defined by its center—but the center is not, itself, a part of the circle. In a similar way, the focus and directrix <emphasis>define</emphasis> a parabola; but neither the focus, nor any point on the directrix, is a <emphasis>part</emphasis> of the parabola. The vertex, on the other hand—the point located directly between the focus and the directrix—is a part of the parabola.</para>
+      <para id="id3462623">One of the obvious questions you might ask at this point is—who cares? It’s pretty obvious that circles come up a lot in the real world, but parabolas? It turns out that parabolas are more useful than you might think. For instance, many telescopes are based on parabolic mirrors. The reason is that all the light that comes in bounces off the mirror to the focus. The focus therefore becomes a point where you can see very dim, distant objects.</para>
+      <figure id="id13298851"><media id="id14794384" alt="A parabola"><image src="../../media/graphics2-72a2.png" mime-type="image/png" print-width="3in"/></media></figure>
+    </section>
+    <section id="id11818213"><title>The Formula of a Parabola</title>
+      
+      <para id="id8236900">We’ve already graphed parabolas in a previous chapter. As you may recall, we began with the simplest parabola, <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, and <emphasis>permuted </emphasis>it.</para>
+      <list id="id13820695" list-type="bulleted"><item><m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>k</m:mi>
+</m:math> moves it up by <m:math>
+<m:mi>k</m:mi>
+</m:math></item>
+        <item><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> moves it to the right by <m:math>
+<m:mi>h</m:mi>
+</m:math></item>
+        <item>Multiplying by a number in front stretches the graph vertically</item>
+        <item>Multiplying by a <emphasis>negative</emphasis> number turns the graph upside-down.</item>
+      </list>
+      <para id="id8369210">Putting it all together, we arrive at:</para>
+
+      <para id="formv2"><title>Mathematical Formula for a Vertical Parabola</title><m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>k</m:mi>
+</m:math> is a parabola with vertex (<m:math><m:mi>h</m:mi></m:math>,<m:math><m:mi>k</m:mi></m:math>). If <m:math><m:mi>a</m:mi></m:math> is positive, it opens up; if <m:math><m:mi>a</m:mi></m:math> is negative, it opens down.</para>
+
+      <para id="id13143226">Parabolas can also be <emphasis>horizontal</emphasis>. For the most part, the concepts are the same. The simplest horizontal parabola is <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, which has its vertex at the origin and opens to the right—from there, you can permute it. The directrix in this case is a vertical line.</para>
+      
+      <para id="formh2"><title>Mathematical Formula for a Horizontal Parabola</title><m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mi>a</m:mi>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>–</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>h</m:mi>
+</m:math> is a parabola with vertex (<m:math>
+<m:mi>h</m:mi>
+</m:math>,<m:math>
+<m:mi>k</m:mi>
+</m:math>). If <m:math><m:mi>a</m:mi></m:math> is positive, it opens to the right; if <m:math><m:mi>a</m:mi></m:math> is negative, it opens to the left.</para>
+
+      <para id="id7730442">At this point, there are two useful exercises that you may want to try.</para>
+      <para id="id8638076">First, compare the two equations. How are they alike, and how are they different?</para>
+      <para id="id13158123">Second, consider the <emphasis>horizontal</emphasis> parabola equation as a set of permutations of the basic form <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. What is <m:math><m:mi>k</m:mi></m:math> doing to the parabola, and why? How about <m:math><m:mi>h</m:mi></m:math>, and <m:math><m:mi>a</m:mi></m:math>?</para>
+    </section>
+  </content>
+</document>

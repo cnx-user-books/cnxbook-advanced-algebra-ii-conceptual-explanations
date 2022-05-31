@@ -1,0 +1,325 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>"Piecewise Functions" and Absolute Value</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18200</md:content-id>
+  <md:title>"Piecewise Functions" and Absolute Value</md:title>
+  <md:abstract>This module introduces piecewise functions for the purpose of understanding absolute value equations.</md:abstract>
+  <md:uuid>c34f1baa-702b-4cd7-9d40-5b83777aa7fc</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/additional-topics/t/piecewise-functions" strength="3">Piecewise Functions Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+      <para id="id13366652">What do you get if you put a positive number into an absolute value? Answer: you get that same number back. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>5</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 5 rline =5} {}</m:annotation></m:semantics></m:math>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>π</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>π</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline π rline =π} {}</m:annotation></m:semantics></m:math>. And so on. We can say, as a generalization, that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline =x} {}</m:annotation></m:semantics></m:math>; but <emphasis>only if </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math><emphasis> is positive</emphasis>.</para>
+      <para id="id13366923">OK, so, what happens if you put a <emphasis>negative</emphasis> number into an absolute value? Answer: you get that same number back, but made positive. OK, how do you <emphasis>make</emphasis> a negative number positive? Mathematically, you <emphasis>multiply it by –1</emphasis>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  - 5 rline = -  \(  - 5 \) =5} {}</m:annotation></m:semantics></m:math>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>π</m:mi></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>π</m:mi></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>π</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline  - π rline = -  \(  - π \) =π} {}</m:annotation></m:semantics></m:math>. We can say, as a generalization, that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline = - x} {}</m:annotation></m:semantics></m:math>; but <emphasis>only if</emphasis> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math><emphasis> is negative</emphasis>.</para>
+      <para id="id13359843">So the absolute value function can be defined like this.</para>
+      
+      <equation id="id13359854"><title>The “Piecewise” Definition of Absolute Value</title><m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">∣</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="true">{</m:mo>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mi>,</m:mi>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">≥</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:mi>,</m:mi>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">&lt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+    </equation>
+      <para id="id13359966">If you’ve never seen this before, it looks extremely odd. If you try to pin that feeling down, I think you’ll find this looks odd for some combination of these three reasons.</para>
+      <list id="id13359983" list-type="enumerated"><item>The whole idea of a “piecewise function”—that is, a function which is defined differently on different domains—may be unfamiliar. Think about it in terms of the function game. Imagine getting a card that says “If you are given a positive number or 0, respond with the same number you were given. If you are given a negative number, multiply it by –1 and give that back.” This is one of those “can a function <emphasis>do that</emphasis>?” moments. Yes, it can—and, in fact, functions defined in this “piecewise manner” are more common than you might think.</item>
+        <item>The 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x} {}</m:annotation></m:semantics></m:math> looks suspicious. “I thought an absolute value could never <emphasis>be</emphasis> negative!” Well, that’s right. But if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is negative, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x} {}</m:annotation></m:semantics></m:math> is positive. Instead of thinking of the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - x} {}</m:annotation></m:semantics></m:math> as “negative 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>” it may help to think of it as “change the sign of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>.”</item>
+        <item>Even if you get past those objections, you may feel that we have taken a perfectly ordinary, easy to understand function, and redefined it in a terribly complicated way. Why bother?</item>
+      </list>
+      <para id="id13360348">Surprisingly, the piecewise definition makes many problems <emphasis>easier</emphasis>. Let’s consider a few graphing problems.</para>
+      <para id="id13360367">You already know how to graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= lline x rline } {}</m:annotation></m:semantics></m:math>. But you can explain the V shape very easily with the piecewise definition. On the right side of the graph (where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 0} {}</m:annotation></m:semantics></m:math>), it is the graph of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x} {}</m:annotation></m:semantics></m:math>. On the <emphasis>left</emphasis> side of the graph (where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;0} {}</m:annotation></m:semantics></m:math>), it is the graph of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x} {}</m:annotation></m:semantics></m:math>.</para>
+      <figure id="element-778"><subfigure id="okaygo"> <media id="id24341421" alt="Line with a negative slope of 1 passing through the origin"><image src="../../media/pwise_1.png" mime-type="image/png" print-width="2in"/></media>
+<caption>
+<m:math>
+ <m:mrow>
+    <m:mi> y </m:mi>
+    <m:mo> = </m:mo>
+    <m:mo> - </m:mo>
+    <m:mi> x </m:mi>
+ </m:mrow>
+</m:math>
+The whole graph is shown, but the only part we care about is on the left, where <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;0} {}</m:annotation></m:semantics></m:math></caption>
+</subfigure>
+<subfigure id="okaygo1"> <media id="id10442102" alt="A line with a positive slope of 1 with y-intercept 0 "><image src="../../media/pwise_2.png" mime-type="image/png" print-width="2in"/></media>
+<caption> 
+<m:math>
+ <m:mrow>
+    <m:mi> y </m:mi>
+    <m:mo> = </m:mo>
+    <m:mi> x </m:mi>
+ </m:mrow>
+</m:math>
+The whole graph is shown, but the only part we care about is on the right, where <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 0} {}</m:annotation></m:semantics></m:math></caption>
+</subfigure>
+<subfigure id="okaygo2"> <media id="id20236111" alt="Graph showing the absolute value of x with cusp at (0,0)."><image src="../../media/pwise_3.png" mime-type="image/png" print-width="2in"/></media>
+<caption>
+<m:math>
+ <m:mrow>
+    <m:mi> y </m:mi>
+    <m:mo> = </m:mo>
+    <m:mo> | </m:mo>
+    <m:mi> x </m:mi>
+    <m:mo> | </m:mo>
+ </m:mrow>
+</m:math>
+Created by putting together the relevant parts of the other two graphs. </caption>
+</subfigure></figure>
+      <para id="id13360862">Still, that’s just a new way of graphing something that we already knew how to graph, right? But now consider this problem: graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x+ lline x rline } {}</m:annotation></m:semantics></m:math>. How do we approach that? With the piecewise definition, it becomes a snap.</para>
+      <equation id="element-880"><m:math>
+  <m:mrow>
+    <m:mi> x </m:mi>
+    <m:mo> + </m:mo>
+    <m:mo> | </m:mo>
+    <m:mi> x </m:mi>
+    <m:mo> | </m:mo>
+    <m:mo> = </m:mo>
+  </m:mrow>
+  <m:mrow>
+  <m:mo> { </m:mo>
+  <m:mtable>
+    <m:mtr>
+      <m:mtd columnalign="left">
+        <m:mi> x </m:mi>
+        <m:mo> + </m:mo>
+        <m:mi> x </m:mi>
+        <m:mo> = </m:mo>
+        <m:mn> 2 </m:mn>
+        <m:mi> x </m:mi>
+      </m:mtd>
+      <m:mtd>
+        <m:mi> x </m:mi>
+        <m:mo> ≥ </m:mo>
+        <m:mn> 0 </m:mn>
+      </m:mtd>
+    </m:mtr>
+    <m:mtr>
+      <m:mtd>
+        <m:mi> x </m:mi>
+        <m:mo> + </m:mo>
+        <m:mo> ( </m:mo>
+        <m:mo> - </m:mo>
+        <m:mi> x </m:mi>
+        <m:mo> ) </m:mo>
+        <m:mo> = </m:mo>
+        <m:mn> 0 </m:mn>
+       </m:mtd>
+       <m:mtd>
+        <m:mi> x </m:mi>
+        <m:mo> &lt; </m:mo>
+        <m:mn> 0 </m:mn>
+       </m:mtd>
+    </m:mtr>
+   </m:mtable>
+   </m:mrow>
+</m:math></equation>
+      <para id="id13361124">So we graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2x</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2x} {}</m:annotation></m:semantics></m:math> on the right, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=0} {}</m:annotation></m:semantics></m:math> on the left. (You may want to try doing this in three separate drawings, as I did above.)</para>
+      <figure id="id13361237"><media id="id17026158" alt="Combined peice-wise Graph"><image src="../../media/pwise_4.png" mime-type="image/png" print-width="2in"/></media>
+<caption>
+<m:math>
+  <m:mrow>
+    <m:mi> y </m:mi>
+    <m:mo> = </m:mo>
+  <m:mrow>
+    <m:mi> x </m:mi>
+    <m:mo> + </m:mo>
+    <m:mo> | </m:mo>
+    <m:mi> x </m:mi>
+    <m:mo> | </m:mo>
+  </m:mrow>
+ </m:mrow>
+</m:math></caption></figure>
+      <para id="id13361261">Our final example requires us to use the piecewise definition of the absolute value for both <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math>.</para>
+      <example id="element-82"><title> Graph |x|+|y|=4 </title><para id="element-885">We saw that in order to graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline } {}</m:annotation></m:semantics></m:math> we had to view the left and right sides separately. Similarly, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline y rline } {}</m:annotation></m:semantics></m:math> divides the graph <emphasis>vertically</emphasis>.
+<list id="id13361500" list-type="bulleted"><item>On top, where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &gt;= 0} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline y rline =y} {}</m:annotation></m:semantics></m:math>.</item><item>Where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y&lt;0} {}</m:annotation></m:semantics></m:math>, on the bottom, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline y rline = - y} {}</m:annotation></m:semantics></m:math>.</item></list>Since this equation has <emphasis>both </emphasis>variables under absolute values, we have to divide the graph both horizontally and vertically, which means we look at <emphasis>each quadrant separately</emphasis>.
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline + lline y rline =4} {}</m:annotation></m:semantics></m:math><table id="id12963196" summary="Characteristics of each quadrant of an x-y graph are given.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Second Quadrant</entry>
+    <entry>First Quadrant</entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline = - x} {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &gt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline =x} {}</m:annotation></m:semantics></m:math>
+</entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &gt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline y rline =y} {}</m:annotation></m:semantics></m:math>
+</entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &gt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline y rline =y} {}</m:annotation></m:semantics></m:math>
+</entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  - x \) +y=4} {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+y=4} {}</m:annotation></m:semantics></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x+4} {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x+4} {}</m:annotation></m:semantics></m:math></entry>
+  </row>
+  <row>
+    <entry>Third Quadrant</entry>
+    <entry>Fourth Quadrant</entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline = - x} {}</m:annotation></m:semantics></m:math>
+</entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x rline =x} {}</m:annotation></m:semantics></m:math>
+</entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &lt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline y rline = - y} {}</m:annotation></m:semantics></m:math>
+</entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &lt;= 0} {}</m:annotation></m:semantics></m:math>, so 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline y rline = - y} {}</m:annotation></m:semantics></m:math>
+</entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  - x \) + \(  - y \) =4} {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+ \(  - y \) =4} {}</m:annotation></m:semantics></m:math></entry>
+  </row>
+  <row>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x - 4} {}</m:annotation></m:semantics></m:math></entry>
+    <entry><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x - 4} {}</m:annotation></m:semantics></m:math></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>Now we graph each line, but only in its respective quadrant. For instance, in the fourth quadrant, we are graphing the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x - 4} {}</m:annotation></m:semantics></m:math>. So we draw the line, but use only the part of it that is in the fourth quadrant.<figure id="id12964848"><media id="id21621813" alt="Graph"><image src="../../media/pwise_6.png" mime-type="image/png"/></media></figure>Repeating this process in all four quadrants, we arrive at the proper graph.
+<figure id="id12964962"><media id="id20328389" alt="Graph"><image src="../../media/pwise_5.png" mime-type="image/png"/></media><caption>
+      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mi>y</m:mi>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+    </caption></figure></para>
+</example>
+  </content>
+</document>

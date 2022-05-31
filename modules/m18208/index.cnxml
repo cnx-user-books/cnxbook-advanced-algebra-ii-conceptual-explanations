@@ -1,0 +1,93 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Inequalities and Absolute Value Concepts -- Graphing Inequalities</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7bbb601a-03d9-46ae-b29a-bda52813791c</md:uuid>
+</metadata>
+  <content>
+    <para id="id48176870">In general, the graph of an inequality is a <emphasis>shaded area</emphasis>.</para>
+      <para id="id48069169">Consider the graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= lline x rline } {}</m:annotation></m:semantics></m:math> shown above. Every point on that V-shape has the property that <emphasis>its </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math><emphasis>-value is the absolute value of its </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>­<emphasis>-value</emphasis>. For instance, the point
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>3,3</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ \(  - 3,3 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    is on the graph because 3 is the absolute value of –3.</para>
+      <para id="id48434319">The inequality 
+<m:math>
+  <m:mrow>
+    <m:mi> y </m:mi>
+    <m:mo> &lt; </m:mo>
+    <m:mo> | </m:mo>
+    <m:mi> x </m:mi>
+    <m:mo> | </m:mo>
+  </m:mrow>
+</m:math> means <emphasis>the </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math><emphasis>-value is less than the absolute value of the </emphasis><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math><emphasis>-value</emphasis>. This will occur anywhere <emphasis>underneath</emphasis> the above graph. For instance, the point
+
+      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>3,1</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+meets this criterion; the point
+
+    
+      <m:math>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>3,4</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+      </m:math>
+    
+does not. If you think about it, you should be able to convince yourself that all points <emphasis>below</emphasis> the above graph fit this criterion.</para>
+      <figure id="id48561731"><media id="idm11075904" alt="A Graph of the absolute value of x. All values of x and y are shaded that lie below the graph line."><image src="../../media/abs_val_5.png" mime-type="image/png" print-width="2in"/></media><caption><m:math>
+  <m:mrow>
+    <m:mi> y </m:mi>
+    <m:mo> &lt; </m:mo>
+    <m:mo> | </m:mo>
+    <m:mi> x </m:mi>
+    <m:mo> | </m:mo>
+  </m:mrow>
+</m:math></caption></figure>
+      <para id="id48372224">The dotted line indicates that the graph 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= lline x rline } {}</m:annotation></m:semantics></m:math> is not actually a part of our set. If we were graphing 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">≤</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y &lt;=  lline x rline } {}</m:annotation></m:semantics></m:math> the line would be complete, indicating that those points would be part of the set.</para>
+  </content>
+</document>

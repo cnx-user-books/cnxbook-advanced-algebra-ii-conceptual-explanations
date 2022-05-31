@@ -1,0 +1,166 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Data Concepts -- Linear Functions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c4bf3548-0cc9-464a-a160-a4860bb75f6c</md:uuid>
+</metadata>
+  <content>
+    <section id="id9987672"><title>Finding a Linear Function for any Two Points</title>
+      
+      <para id="id9622610">In an earlier unit, we did a great deal of work with the equation for the <emphasis>height</emphasis> of a ball thrown straight up into the air. Now, suppose you want an equation for the <emphasis>speed </emphasis>of such a ball. Not knowing the correct formula, you run an experiment, and you measure the two data points.</para>
+      <table id="element-407" summary="A short table showing the relationship between time and velocity of a ball thrown straight up.">
+
+<tgroup cols="2"><thead>
+ <row>
+    <entry>t (time)</entry>
+    <entry>v (velocity, or speed)</entry>
+  </row>
+</thead>
+<tbody>
+ 
+  <row>
+    <entry>1 second</entry>
+    <entry>50 ft/sec</entry>
+  </row>
+  <row>
+    <entry>3 seconds</entry>
+    <entry>18 ft/sec</entry>
+  </row>
+</tbody>
+</tgroup>
+</table>
+      
+      
+      <para id="id3125324">Obviously, the ball is slowing down as it travels upward. Based on these two data points, what function 
+<m:math>
+<m:mi>v</m:mi>
+<m:mo>(</m:mo>
+<m:mi>t</m:mi>
+<m:mo>)</m:mo>
+</m:math> might model the speed of the ball?</para>
+      <para id="id10412340">Given any two points, the simplest equation is always a line. We have two points, (1,50) and (3,18). How do we find the equation for that line? Recall that every line can be written in the form:</para>
+      
+      <equation id="element-217"><m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math></equation><para id="id12354271">If we can find the m and b for our particular line, we will have the formula.</para>
+      <para id="id6618503">Here is the key: <emphasis>if our line contains the point (1,50) that means that when we plug in the x-value 1, we must get the y-value 50.</emphasis></para>
+      <para id="id11040020"><media id="idp5751984" alt="The derivation of the equation of the line given the ordered pair and slope when m = 1."><image src="../../media/dtc1.PNG" mime-type="image/png" print-width="3in"/></media></para>
+      <para id="id10771912">Similarly, we can use the point (3,18) to generate the equation <m:math>
+<m:mn>18</m:mn>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mo>(</m:mo>
+<m:mn>3</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math>. So now, in order to find 
+<m:math>
+<m:mi>m</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>b</m:mi>
+</m:math>, we simply have to solve two equations and two unknowns! We can solve them either by substitution or elimination: the example below uses substitution.</para>
+      <equation id="id98374982">
+<m:math>
+<m:mi>m</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>50</m:mn>
+<m:mo>→</m:mo>
+<m:mi>b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>50</m:mn>
+<m:mo>-</m:mo>
+<m:mi>m</m:mi>
+</m:math></equation>
+      <equation id="id04293879872354">
+<m:math>
+<m:mn>3</m:mn>
+<m:mi>m</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>18</m:mn>
+<m:mo>→</m:mo>
+<m:mn>3</m:mn>
+<m:mi>m</m:mi>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mn>50</m:mn>
+<m:mo>-</m:mo>
+<m:mi>m</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>18</m:mn>
+</m:math></equation>
+      <equation id="id99999999">
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>m</m:mi>
+<m:mo>+</m:mo>
+<m:mn>50</m:mn>
+<m:mo>=</m:mo>
+<m:mn>18</m:mn>
+</m:math></equation>
+      <equation id="id0234235253525252">
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>m</m:mi>
+<m:mo>=</m:mo>
+<m:mo>–</m:mo>
+<m:mn>32</m:mn>
+</m:math></equation>
+      <equation id="id03498798792342111">
+<m:math>
+<m:mi>m</m:mi>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn>16</m:mn>
+</m:math></equation>
+      <equation id="id0234999234232">
+<m:math>
+<m:mi>b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>50</m:mn>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mn>16</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>66</m:mn>
+</m:math></equation>
+      <para id="id12623717">So we have found 
+<m:math>
+<m:mi>m</m:mi>
+</m:math> and 
+<m:math>
+<m:mi>b</m:mi>
+</m:math>. Since these are the unknowns the in the equation 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math>, the equation we are looking for is:</para>
+      <equation id="id987987923422">
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mo>–</m:mo>
+<m:mn>16</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>66</m:mn>
+</m:math></equation>
+      <para id="id10652680">Based on this equation, we would expect, for instance, that after 4 seconds, the speed would be 2 ft/sec. If we measured the speed after 4 seconds and found this result, we would gain confidence that our formula is correct.</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,287 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Absolute Value Inequalities</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18207</md:content-id>
+  <md:title>Absolute Value Inequalities</md:title>
+  <md:abstract>This module introduces absolute value inequalities.</md:abstract>
+  <md:uuid>4001a168-2b3c-47fd-989c-3c23066e7d32</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/linear-inequalities/t/solving-greater-than-absolute-value-inequalities" strength="3">Solving Absolute Value Inequalities Video</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/absolute-value/t/absolute-value-inequalities" strength="3">Absolute Value Inequalities Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+      <para id="id11007354">Here’s one of my favorite problems:</para>
+      <para id="id9694521">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mo stretchy="false">&lt;</m:mo>
+                      <m:mtext>10</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline &lt;"10"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id10994446">Having seen that the solution to 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline ="10"} {}</m:annotation></m:semantics></m:math> is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline = +- "10"} {}</m:annotation></m:semantics></m:math>, many students answer this question 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline &lt; +- "10"} {}</m:annotation></m:semantics></m:math>. However, this is not only wrong: it is, as discussed above, relatively meaningless. In order to approach this question you have to—you guessed it!—step back and think.</para>
+      <para id="id10457360">Here are two different, perfectly correct ways to look at this problem.</para>
+      <list id="id10203807" list-type="enumerated">
+        <item>What numbers work? 4 works. –4 does too. 0 works. 13 doesn’t work. How about –13? No: if 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - "13"} {}</m:annotation></m:semantics></m:math> then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline ="13"} {}</m:annotation></m:semantics></m:math>, which is not less than 10. By playing with numbers in this way, you should be able to convince yourself that the numbers that work must be <emphasis>somewhere between</emphasis> –10 <emphasis>and</emphasis> 10. This is one way to approach the answer.</item>
+        <item>The other way is to think of absolute value as representing <emphasis>distance from 0</emphasis>. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>5</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline 5 \rline } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline  - 5 \rline } {}</m:annotation></m:semantics></m:math> are both 5 because both numbers are 5 away from 0. In this case, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline x \rline &lt;"10"} {}</m:annotation></m:semantics></m:math> means “the distance between x and 0 is less than 10”—in other words, you are within 10 units of zero in either direction. Once again, we conclude that the answer must be <emphasis>between</emphasis> –10 and 10.</item>
+      </list>
+      <figure id="id10283243"><media id="id24205998" alt="Number line showing the interval from (-10,10)"><image src="../../media/num_line_5.png" mime-type="image/png" print-width="2in"/></media><caption>
+All numbers whose <emphasis>absolute value</emphasis> is less than 10;
+<m:math>
+  <m:mrow>
+    <m:mo> - </m:mo>
+    <m:mn> 10 </m:mn>
+    <m:mo> &lt; </m:mo>
+    <m:mi> x </m:mi>
+    <m:mo> &lt; </m:mo>
+    <m:mn> 10 </m:mn>
+   </m:mrow>
+</m:math>
+</caption></figure>
+      <para id="id9917730">It is not necessary to use both of these methods; use whichever method is easier for you to understand.</para>
+      <para id="id10522515">More complicated absolute value problems should be approached in the same three steps as the equations discussed above: algebraically isolate the absolute value, then <emphasis>think</emphasis>, then algebraically solve for
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+. However, as illustrated above, the <emphasis>think</emphasis> step is a bit more complicated with inequalities than with equations.</para>
+      <example id="element-663"><title> Absolute Value Inequality </title>
+<para id="element-101"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∣</m:mo><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>15</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 3 \(  \lline 2x+3 \rline  - 8 \) &lt; - "15"} {}</m:annotation></m:semantics></m:math></para><list id="element-385" list-type="labeled-item"><item><label>Step 1:</label>
+
+Algebraically isolate the absolute value
+<list id="jfkdlsaf" list-type="bulleted"><item> <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 2x+3 rline  - 8&gt;5} {}</m:annotation></m:semantics></m:math> (don’t forget to switch the inequality when dividing by –3!) </item>
+<item>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline 2x+3 rline &gt;"13"} {}</m:annotation></m:semantics></m:math> </item></list> </item>
+	<item><label>Step 2:</label>
+
+Think!
+<list id="jakfdjska" list-type="bulleted"><item> As always, forget the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3} {}</m:annotation></m:semantics></m:math> in this step. The absolute value of <emphasis>something</emphasis> is greater than 13. What could the <emphasis>something</emphasis> be? </item> 
+<item> We can approach this in two ways, just as the previous absolute value inequality. The first method is trying numbers. We discover that all numbers greater than 13 work (such as 14, 15, 16)—their absolute values are greater than 13. Numbers less than –13 (such as –14,–15,–16) also have absolute values greater than 13. But in-between numbers, such as –12, 0, or 12, do not work.</item>
+<item> The other approach is to think of absolute value as representing distance to 0. The distance between <emphasis>something</emphasis> and 0 is greater than 13. So the <emphasis>something</emphasis> is more than 13 away from 0—in either direction.</item>
+<item> Either way, we conclude that the <emphasis>something</emphasis> must be anything greater than 13, OR less than –13!<figure id="id9966085"><media id="id24581220" alt="Number line showing the interval from (-infinity,-13) and (13, infinity) "><image src="../../media/num_line_6.png" mime-type="image/png" print-width="2in"/></media><caption>
+The absolute value of something is greater than 13;
+
+<m:math>
+  <m:mrow>
+    <m:mtext>something</m:mtext> 
+    <m:mo> &lt; </m:mo>
+    <m:mo> - </m:mo>
+    <m:mn> 13 </m:mn>
+  </m:mrow>
+</m:math>
+OR
+<m:math>
+  <m:mrow>
+    <m:mtext>something</m:mtext> 
+    <m:mo> &gt; </m:mo>
+    <m:mo> - </m:mo>
+    <m:mn> 13 </m:mn>
+  </m:mrow>
+</m:math>
+</caption></figure> </item></list> </item>
+	<item><label>Step 3:</label>
+
+Algebraically solve (both inequalities) for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>
+<equation id="element-623"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>&lt;</m:mo>
+<m:mn>-13</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mtext>OR</m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mo>&gt;</m:mo>
+<m:mn>13</m:mn>
+</m:mtd></m:mtr> 
+
+
+
+<m:mtr>
+<m:mtd>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>-16</m:mn>
+
+</m:mtd>
+<m:mtd>
+ <m:mtext>OR</m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>&gt;</m:mo>
+<m:mn>10</m:mn>
+</m:mtd></m:mtr>
+
+
+<m:mtr>
+<m:mtd>
+<m:mi>x</m:mi>
+<m:mo>&lt;</m:mo>
+<m:mn>-8</m:mn>
+</m:mtd>
+<m:mtd>
+<m:mtext>OR</m:mtext>
+</m:mtd>
+<m:mtd><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;5} {}</m:annotation></m:semantics></m:mtd></m:mtr>
+</m:mtable> 
+</m:math></equation>
+
+<figure id="id10587307"><media id="id24581493" alt="Number line showing the interval from (-infinity,-8) and (5, infinity) "><image src="../../media/num_line_7.png" mime-type="image/png" print-width="2in"/></media><caption>
+Any <m:math><m:mi> x </m:mi></m:math>-value which is less than –8 <emphasis>or</emphasis> greater than 5 will make the original inequality true;
+<m:math>
+  <m:mrow>
+    <m:mi> x </m:mi>
+    <m:mo> &lt; </m:mo>
+    <m:mo> - </m:mo>
+    <m:mn> 8 </m:mn>
+  </m:mrow>
+</m:math>
+OR
+<m:math>
+  <m:mrow>
+    <m:mi> x </m:mi>
+    <m:mo> &gt; </m:mo>
+    <m:mn> 5 </m:mn>
+  </m:mrow>
+</m:math>
+</caption></figure>
+
+ </item></list>
+</example>
+      <para id="id9987566">Many students will still resist the <emphasis>think</emphasis> step, attempting to figure out “the rules” that will always lead from the question to the answer. At first, it seems that memorizing a few rules won’t be too hard: “greater-than problems always lead to <term>OR</term> answers” and that kind of thing. But those rules will fail you when you hit a problem like the next one.</para>
+
+<example id="element-215"><title>Absolute Value Inequality</title>
+    <para id="element-495"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">∣</m:mo>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>10</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">&gt;</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ lline x - 3 rline +"10"&gt;7} {}</m:annotation>
+        </m:semantics>
+      </m:math></para>
+<list id="element-713" list-type="labeled-item">
+  <item><label>Step 1:</label>
+
+Algebraically isolate the absolute value
+    <list id="abs_value1" list-type="bulleted">
+      <item>
+        <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">&gt;</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ lline x - 3 rline &gt; - 3} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+      </item>    
+    </list>
+  </item>
+<item><label>Step 2:</label>
+
+Think!
+  <list id="abs_value2" list-type="bulleted">
+    <item>The absolute value of <emphasis>something</emphasis> is greater than –3.  What could the <emphasis>something</emphasis> be?  2 works.  –2 also works.  And 0.  And 7.  And –10.  And...hey!  Absolute values are always positive, so the absolute value of anything is greater than –3!</item></list></item>
+</list>
+<para id="abs_value3">
+<emphasis>All numbers work</emphasis>
+</para>
+</example>
+  </content>
+</document>

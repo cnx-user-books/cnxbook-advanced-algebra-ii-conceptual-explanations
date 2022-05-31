@@ -1,0 +1,196 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Proof by Induction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m19075</md:content-id>
+  <md:title>Proof by Induction</md:title>
+  <md:abstract>An updated version of the Proof by Induction module.</md:abstract>
+  <md:uuid>c0d7d932-afe7-4e83-a0c3-b1b976515b01</md:uuid>
+</metadata>
+  <content>
+
+      <para id="id10027560">“Induction” is a method of proving something. Once again, let’s start with an example.</para>
+      <para id="id12100541">Consider the sum 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munderover><m:mrow><m:mo stretchy="false">∑</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:munderover><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ Sum cSub { size 8{i=1} }  cSup { size 8{n} }  { {  {1}  over  {i \( i+1 \) } } } } {}</m:annotation></m:semantics></m:math>. In other words, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>+...+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {n \( n+1 \) } } } {}</m:annotation></m:semantics></m:math>. This is neither arithmetic nor geometric, so none of our established tricks will work on it. How can we find the sum of such a series?</para>
+      <para id="id12483495">Students are often surprised to hear that mathematicians typically begin such problems by <emphasis>looking for a pattern</emphasis>. What does this series do for the first few terms?</para>
+      <list id="element-339" list-type="bulleted"><item>1 term: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math></item>
+
+<item>2 terms: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>=</m:mo> <m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {6} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {3} } } {}</m:annotation></m:semantics></m:math></item>
+
+<item>3 terms: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mtext>12</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {"12"} } } {}</m:annotation></m:semantics><m:mo>=</m:mo> 
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation></m:semantics></m:math></item></list>
+
+
+      <para id="id11228189">At this point, you might already suspect the pattern. ½, ⅔, ¾...could it be that the next term will be 4/5? Let’s find out.</para>
+
+      <list id="element-848" list-type="bulleted"><item>4 terms: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">×</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {4 times 5} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {4} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mtext>20</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {"20"} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4}  over  {5} } } {}</m:annotation></m:semantics></m:math></item>
+</list>
+
+      <para id="id9160791">It seems to work. The next term will probably be <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>5</m:cn>
+    <m:cn>6</m:cn>
+  </m:apply>
+</m:math>, and then <m:math>
+  <m:apply>
+    <m:divide/>
+    <m:cn>6</m:cn>
+    <m:cn>7</m:cn>
+  </m:apply>
+</m:math>, and so on. Stop for a moment and make sure you see the pattern. Then, see if you can express that pattern using mathematical notation instead of words. (Try this yourself before you keep reading!)</para>
+      <para id="id13156288">The pattern can be expressed like this:</para>
+      <para id="id12254396"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>+...+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {n \( n+1 \) } } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {n+1} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id3166423">Stop for a moment and make sure you know where we are. What we have done is figured out a <emphasis>pattern</emphasis> to the answers, and shown that the pattern works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>, <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math>, <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+</m:math>, and <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+</m:math>. Based on this pattern, we expect that if we added up 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>+...+</m:mo>
+<m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mtext>100</m:mtext><m:mo stretchy="false">×</m:mo><m:mtext>101</m:mtext></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {"100" times "101"} } } {}</m:annotation></m:semantics></m:math>, we would get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>100</m:mtext><m:mtext>101</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"100"}  over  {"101"} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id11120402"><emphasis>But we have not yet proven anything</emphasis>. Maybe the pattern breaks down for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math>. Or maybe it works for all the n-values from 1 to 1000, and then suddenly stops working. We cannot possibly test all the values in the world, one by one.</para>
+      <para id="id12074804">This is where the proof by induction comes in. It gives us a way to prove that such a pattern will continue to hold forever.</para>
+      <para id="id9733534">An inductive proof, in general, consists of two steps. The first step is to show that the pattern holds when <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math>. The second step is to show that, <emphasis>whenever this pattern holds for some particular <m:math>
+<m:mi>n</m:mi>
+</m:math>, it will also hold for the next <m:math>
+<m:mi>n</m:mi>
+</m:math></emphasis>. If it holds for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math>, then it must hold for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+</m:math>. If it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>99</m:mn>
+</m:math>, then it must also work for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>100</m:mn>
+</m:math>. Once we have proven that, in general, then we will have shown that it works for <emphasis>all</emphasis> <m:math>
+<m:mi>n</m:mi>
+</m:math> values.</para>
+      <example id="element-486"><title>Proof by Induction</title>
+      <para id="id13046759"><title>Inductive Proof of:</title><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>+...+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {n \( n+1 \) } } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {n+1} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id11558230"><title>First Step:</title>Show that it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1</m:mn>
+</m:math></para>
+      <para id="id13302366">1 term: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>=</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math><media id="id1165294264507" alt="A checked box"><image src="../../media/graphics1-3794.png" mime-type="image/png" print-width=".5in"/></media></para>
+      <para id="id10609210"><title>Second Step:</title>Show that it works for <m:math>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math>, assuming it works for some <m:math>
+<m:mi>n</m:mi>
+</m:math></para>
+      <para id="id13484168">For <m:math>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math>, the left side of the equation looks like:</para>
+      <para id="id12087115"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>+...+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {n \( n+1 \) } } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { \( n+1 \)  \( n+1+1 \) } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id9832170">and the right side of the equation looks like:</para>
+      <equation id="id12945492">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {n+1}  over  {n+1+1} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id9945303">So we want to see if:</para>
+      <para id="id13303513"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {1 times 2} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2 times 3} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3 times 4} } } {}</m:annotation></m:semantics><m:mo>+...+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {n \( n+1 \) } } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { \( n+1 \)  \( n+2 \) } } } {}</m:annotation></m:semantics></m:math><media id="id1165283703441" alt=""><image src="../../media/graphics2-93d3.png" mime-type="image/png" height="15" width="8"/></media><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n+1}  over  {n+2} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id11020706"><title>Now comes the key step.</title>If this pattern held for <m:math><m:mi>n</m:mi></m:math>, then the first <m:math>
+<m:mi>n</m:mi></m:math> terms of the left side—that is, all but the last (new) term—must add up to 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {n+1} } } {}</m:annotation></m:semantics></m:math>. So we do that substitution:</para>
+      <para id="id11211284"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n}  over  {n+1} } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { \( n+1 \)  \( n+2 \) } } } {}</m:annotation></m:semantics></m:math><media id="id1165271581629" alt=""><image src="../../media/graphics3-93d3.png" mime-type="image/png" height="15" width="8"/></media><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n+1}  over  {n+2} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id7070337">All that remains, now, is the algebra to show that equation is true. Get a common denominator:</para>
+      <para id="id11548473"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {n \( n+2 \) }  over  { \( n+1 \)  \( n+2 \) } } } {}</m:annotation></m:semantics><m:mo>+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { \( n+1 \)  \( n+2 \) } } } {}</m:annotation></m:semantics></m:math><media id="id1165310966421" alt=""><image src="../../media/graphics4-93d3.png" mime-type="image/png" height="15" width="8"/></media><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { \( n+1 \)  rSup { size 8{2} } }  over  { \( n+1 \)  \( n+2 \) } } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="id12295499"><m:math>
+<m:msup><m:mi>n</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math> 
+<media id="id1165269272626" alt="A checked box"><image src="../../media/graphics1-3794.png" mime-type="image/png" print-width=".5in"/></media>
+
+<m:math><m:mspace width="4pt"/><m:mo>(</m:mo>
+<m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup> 
+</m:math>
+
+<media id="id1165273188780" alt="A checked box"><image src="../../media/graphics1-3794.png" mime-type="image/png" print-width=".5in"/></media></para></example>
+
+      <para id="id13110025">The algebra here all comes from our unit on rational expressions: you may want to take a moment to make sure you can follow it. But don’t let the algebra distract you from the main point, which is what we proved in the second step. We proved that the formula works for <m:math><m:mi>n</m:mi>
+<m:mo>+</m:mo>
+<m:mn>1</m:mn>
+</m:math>. But in the middle of that proof, we <emphasis>assumed</emphasis> that it works for the previous term, <m:math>
+<m:mi>n</m:mi>
+</m:math>. In doing so, we proved that if it works for 1, it must also work for 2; if it works for 2, it must also work for 3; and so on. This amounts, then, to a proof that the pattern holds forever.</para>
+
+  </content>
+</document>

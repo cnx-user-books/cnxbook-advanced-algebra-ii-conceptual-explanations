@@ -1,0 +1,198 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Data Concepts -- Regression on the the Calculator</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>22106ccf-110a-4b3f-bda3-59715aea885d</md:uuid>
+</metadata>
+  <content>
+    <section id="id10879479">
+      <title>Regression on the Calculator</title>
+      <para id="id10879485">What Kepler did is an example of “regression”: finding an equation that models a particular set of data.</para>
+      <para id="id10879493">Kepler became famous because regression is hard. Who would have thought to look for 
+<m:math>
+<m:msup>
+<m:mi>T</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+
+<m:mi>a</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>? Especially when you consider all the other equations that would still have a “this goes up, that goes up” relationship, such as 
+<m:math>
+<m:mi>T</m:mi>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>2</m:mn>
+<m:mi>a</m:mi>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+</m:math>, or 
+<m:math>
+<m:mi>T</m:mi>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>10</m:mn>
+<m:mo>-</m:mo>
+<m:mi>a</m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>, or maybe 
+<m:math>
+<m:mi>T</m:mi>
+<m:mo>=</m:mo>
+<m:mn>3</m:mn>
+<m:mtext>log</m:mtext>
+<m:mn>5</m:mn>
+<m:mi>a</m:mi>
+</m:math>?</para>
+      <para id="id11973026">Fortunately, we have a tool that Kepler did not have: the modern computer. Mathematical programs and graphing calculators can take a set of points, and find the line or curve of “best fit” to model the data.</para>
+      <para id="id11973038">As an example of this process, suppose that you have run an experiment and generated three data points: (2,1), (4,3), and (5,8). What function might model those data?</para>
+      <note type="Note" id="idm7739824"><label>Note</label>Note: the directions below are given for a TI-83 or compatible calculator. Many other calculators can perform the same functions, but the implementation details may look quite different.</note>
+      <section id="id11973078">
+        <title>Entering the data</title>
+        <list list-type="enumerated" id="id11973084">
+          <item>Hit <code display="inline">STAT</code> to go into the Statistics menu.</item>
+          <item>Choose <code display="inline">Edit...</code> This brings you to a screen where you enter a bunch of L1 and L2 values.</item>
+        </list>
+        <table id="id11973124" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          Enter the L1 and L2 values as follows: for each data point, the x-coordinate is in the L1 list, and the y-coordinate is in the L2 list.The screen to the right shows the points (2,1), (4,3), and (5,8).</entry>
+                <entry>
+                  <media id="idm9633424" alt=""><image src="../../media/graphics1-be62.png" mime-type="image/png"/></media>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <list list-type="enumerated" id="id12137923">
+          <item>Hit <code display="inline">2nd QUIT</code> return to the main screen.</item>
+        </list>
+      </section>
+      <section id="id12137941">
+        <title>Viewing the data, and guessing at the shape</title>
+        <para id="id12137947">Once you have entered your points into the L1 and L2 lists, your calculator can show you a “scatterplot”—which is a pointlessly fancy word for “a graph of a bunch of points,” like you used to make when you were first learning what graphing was.</para>
+        <list list-type="enumerated" id="id12137969">
+          <item>Hit <code display="inline">WINDOW</code> (near the upper-left-hand corner of the calculator).</item>
+          <item>Set the variables Xmin, Xmax, Ymin, and Ymax appropriately. For instance, for the three points shown above, the x-values are 2, 4, and 5, and the y-values are 1, 3, and 8. So it might make sense to set Xmin=0, XMax=10, Ymin=0, and Ymax=10—and that is how I did it in the drawing below. Of course, there are many other settings you could use. But if you go through the whole process and don’t see any points, it’s a reasonable guess that your window is not set properly.</item>
+          <item>Hit <code display="inline">Y=</code> (upper-left-hand corner of the calculator).</item>
+          <item>Then, hit the up-arrow key, so the focus moves to <code display="inline">Plot1</code> (which will start blinking).</item>
+          <item>Hit <code display="inline">ENTER</code>. It’s actually impossible, at this point, to see that anything has happened. But if you down-arrow <emphasis>away</emphasis> from <code display="inline">Plot1</code>, you should see that it remains darkened (white letters on a black background, instead of the other way around). This indicates that it has been selected.</item>
+        </list>
+        <table id="id12425280" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>
+          FIXME: A LIST CAN NOT BE A TABLE ENTRY.
+          Hit <code display="inline">GRAPH</code> (upper-right-hand corner of the calculator). The calculator now displays the points. From the image, you can see that a quadratic (parabolic) or exponential function might be a reasonable guess, whereas a line or logarithmic function would be unlikely to fit.</entry>
+                <entry>
+       <media id="idm4157520" alt="Parabolic graph on calculator"><image src="../../media/cl1.PNG" mime-type="image/png" print-width="3in"/></media>
+      </entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+        <para id="id12425359">At this point, looking at the data, it is often useful to categorize it in two ways.</para>
+        <para id="id12425365">First: is it <emphasis>increasing or decreasing?</emphasis> In our example, of course, the points are increasing. (Some data, of course, may be doing both at different times: consider, for instance, a parabola.)</para>
+        <para id="id12425382">Now, in the case of an increasing function, you can categorize it as one of the following.</para>
+        <table id="id12425388" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>
+               <media id="idm4072944" alt="Linear graph on calculator"><image src="../../media/cl2.PNG" mime-type="image/png" print-width="3in"/></media>
+      </entry>
+                <entry>If it is increasing steadily, that suggests a line. (Remember that what makes a linear function linear is that it always goes up at the same rate, or slope!)</entry>
+              </row>
+              <row>
+                <entry>
+               <media id="idm11306688" alt="Logarithmic graph on calculator"><image src="../../media/cl3.PNG" mime-type="image/png" print-width="3in"/></media>
+      </entry>
+                <entry>If it is increasing more and more slowly, that suggests a logarithmic function. (A square root would also have this basic shape, but you cannot do a square-root-regression.)</entry>
+              </row>
+              <row>
+                <entry>
+               <media id="idp2650528" alt="Exponential graph on calculator"><image src="../../media/cl4.PNG" mime-type="image/png" print-width="3in"/></media>
+      </entry>
+                <entry>If it is increasing more and more quickly, that suggests an exponential function, or possibly the right side of a quadratic function (a parabola).</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup>
+</table>
+        <para id="id11972167">Decreasing functions can be categorized similarly, of course. If a function decreases and <emphasis>then</emphasis> increases, a parabola is probably the best fit. Functions that go up, then down, then up again, are most likely to be higher-order polynomials.</para>
+      </section>
+      <section id="id11972186">
+        <title>Finding the formula</title>
+        <para id="id11972194">Once you have decided on the right shape, the hard work is done: the calculator takes care of the rest.</para>
+        <list list-type="enumerated" id="id11972200">
+          <item>Hit <code display="inline">STAT</code> to return again to the Statistics menu.</item>
+          <item>Hit the right-arrow key to go to <code display="inline">CALC</code>.</item>
+          <item>At this point, you have several choices. <code display="inline">LinReg</code> will give you a line that best fits your points. <code display="inline">QuadReg</code> will give you a quadratic function, <emphasis>aka</emphasis> a second-order polynomial. There are also options for "cubic" (third-order polynomial), "quartic" (fourth-order polynomial), logarithmic, or exponential curves. Choose the one you want and hit <code display="inline">ENTER</code>.</item>
+        </list>
+        <para id="id11972259">The calculator does <emphasis>not</emphasis> graph your curve for you, but it does tell you what the curve is. For instance, if I run a <code display="inline">QuadReg</code> on the data above, the calculator gives me:</para>
+        <figure id="id11972280">
+          <media id="idm2503872" alt=""><image src="../../media/graphics2-568f.png" mime-type="image/png" height="94" width="182"/></media>
+        </figure>
+        <para id="id12127244">This tells me that the best quadratic fit for my data is the curve 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>1.33</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9.67</m:mn>
+</m:math>. One way to double-check this, of course, is to enter 
+<m:math>
+<m:mi>Y</m:mi>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mn>1.33</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>7</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9.67</m:mn>
+</m:math> and then graph it, and see how closely it approximates the points!</para>
+        <note type="Note" id="idp394752"><label>Note</label>Remember that whatever option you choose, it will operate on the points you have entered in the L1 and L2 lists, so make sure your data is correctly entered there!</note>
+        <section id="id12127292">
+          <title>Starting over</title>
+          <para id="id12127299">There's just one more thing you have to know: once you've done this once, how do you clear out the lists to enter new ones? Here is one way to do it.</para>
+          <list list-type="enumerated" id="id12127307">
+            <item>Hit <code display="inline">MEM</code> (you do this by hitting the yellow <code display="inline">2nd</code> key, and then hitting <code display="inline">+</code>).</item>
+            <item>This brings up a menu. Choose <code display="inline">ClrAllLists</code>.</item>
+            <item>Then—after you return to the main screen—hit <code display="inline">ENTER</code> and the lists are emptied out.</item>
+          </list>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

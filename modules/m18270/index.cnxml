@@ -1,0 +1,165 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conic Concepts -- Recap</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c79aea26-f11d-47a0-8ff7-8f5c40f35230</md:uuid>
+</metadata>
+  <content>
+
+      <table id="id6606856" summary="">
+<tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>If it has...</entry>
+              <entry>Then it’s a...</entry>
+              <entry>Example</entry>
+              <entry>Horizontal or Vertical?</entry>
+            </row>
+          </thead>
+
+          <tbody>
+
+            <row>
+              <entry>No squared terms</entry>
+              <entry>Line</entry>
+              <entry><m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>7</m:mn>
+</m:math></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>One squared term</entry>
+              <entry>Parabola</entry>
+              <entry><m:math>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>-</m:mo>
+<m:mn>10</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>9</m:mn>
+</m:math></entry>
+              <entry>If you have an <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> but no <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, you’re a horizontal parabola. If you have a <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> but no <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>, vertical.</entry>
+            </row>
+            <row>
+              <entry>Two squared terms with the <emphasis>same coefficient</emphasis></entry>
+              <entry>Circle</entry>
+              <entry><m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math></entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Two squared terms with <emphasis>different coefficients</emphasis> but the <emphasis>same sign</emphasis></entry>
+              <entry>Ellipse</entry>
+              <entry><m:math>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>12</m:mn>
+</m:math></entry>
+              <entry>The difference between vertical ellipses and horizontal is based on which squared term has the larger coefficient.</entry>
+            </row>
+            <row>
+              <entry>Two squared terms with <emphasis>different signs</emphasis></entry>
+              <entry>Hyperbola</entry>
+              <entry><m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math></entry>
+              <entry>The difference between vertical hyperbolas and horizontal is based on which squared term is positive.</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup>
+</table>
+      <para id="id7281268">Note that all of this is based <emphasis>only on the squared terms!</emphasis> The other terms matter in terms of graphing, but not in terms of figuring out what shape it is.</para>
+
+  </content>
+</document>

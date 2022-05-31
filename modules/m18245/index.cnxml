@@ -1,0 +1,672 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Circles</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18245</md:content-id>
+  <md:title>Circles</md:title>
+  <md:abstract>This module introduces the definition and formula of a circle, including example problems.</md:abstract>
+  <md:uuid>614b5248-53d5-4187-a1ae-e2888af6177e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/conic-sections/t/the-circle" strength="3">Circle Conic Section Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id12289814"><title>The Definition of a Circle</title>
+      
+      <para id="id9847774">You’ve known all your life what a circle looks like. You probably know how to find the area and the circumference of a circle, given its radius. But what is the exact mathematical <emphasis>definition</emphasis> of a circle? Before you read the answer, you may want to think about the question for a minute. Try to think of a precise, specific definition of exactly what a circle is.</para>
+      <para id="id9619683">Below is the definition mathematicians use.</para>
+      <para id="id12933210"><title>Definition of a Circle</title>
+        The set of all points in a plane that are the <emphasis>same distance from a given point</emphasis> forms a <emphasis>circle</emphasis>. The point is known as the center of the <emphasis>circle</emphasis>, and the distance is known as the <emphasis>radius</emphasis>.
+      </para>
+      <para id="id7158725">Mathematicians often seem to be deliberately obscuring things by creating complicated definitions for things you already understood anyway. But if you try to find a simpler definition of exactly what a circle is, you will be surprised at how difficult it is. Most people start with something like “a shape that is round all the way around.” That does describe a circle, but it also describes many other shapes, such as this pretzel:</para><media id="id1166612803418" alt="A pretzel." display="block"><image src="../../media/graphics1-4660.png" mime-type="image/png" height="19" width="27"/></media>
+      <para id="id3602236">So you start adding caveats like “it can’t cross itself” and “it can’t have any loose ends.” And then somebody draws an egg shape that fits all your criteria, and yet is still not a circle:</para><media id="id2137476" alt="An egg shape." display="block"><image src="../../media/graphics2-43e5.png" mime-type="image/png" height="25" width="72"/></media>
+      <para id="id12929680">So you try to modify your definition further to exclude <emphasis>that</emphasis>... and by that time, the mathematician’s definition is starting to look beautifully simple.</para>
+      <para id="id12354283">But does that original definition actually produce a circle? The following experiment is one of the best ways to convince yourself that it does.</para>
+      <list id="id6438925" list-type="enumerated"><title>Experiment: Drawing the Perfect Circle</title>
+        
+        <item>Lay a piece of cardboard on the floor.</item>
+        <item>Thumbtack one end of a string to the cardboard.</item>
+        <item>Tie the other end of the string to your pen.</item>
+        <item>Pull the string as tight as you can, and then put the pen on the cardboard.</item>
+        <item>Pull the pen all the way around the thumbtack, keeping the string taut at all times.</item>
+      </list>
+
+
+      <para id="id10192333">The pen will touch every point on the cardboard that is <emphasis>exactly one string-length away from the thumbtack.</emphasis> And the resulting shape will be a circle. The cardboard is the <emphasis>plane</emphasis> in our definition, the thumbtack is the <emphasis>center</emphasis>, and the string length is the <emphasis>radius</emphasis>.</para>
+      <para id="id10715877">The purpose of this experiment is to convince yourself that if you take all the points in a plane that are a given distance from a given point, the result is a circle. We’ll come back to this definition shortly, to clarify it and to show how it connects to the <emphasis>mathematical formula</emphasis> for a circle.</para>
+    </section>
+    <section id="id9571057"><title>The Mathematical Formula for a Circle</title>
+      
+      <para id="id11488483">You already know the formula for a line: <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math>. You know that 
+<m:math>
+<m:mi>m</m:mi>
+</m:math> is the slope, and 
+<m:math>
+<m:mi>b</m:mi>
+</m:math> 
+is the y-intercept. Knowing all this, you can easily answer questions such as: “Draw the graph of <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mn>–3</m:mn>
+</m:math>” 
+or “Find the equation of a line that contains the points (3,5) and (4,4).” If you are given the equation <m:math>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+</m:math>, 
+you know how to graph it in two steps: first <emphasis>put it in the standard</emphasis> <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math> 
+form, and then graph it.</para>
+      <para id="id11292634">All the conic sections are graphed in a similar way. There is a <emphasis>standard form</emphasis> which is very easy to graph, once you understand what all the parts mean. If you are given an equation that is not in standard form, you put it into the standard form, and then graph it.</para>
+      <para id="id7477468">So, to understand the formula below, think of it as the <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math> of circles.</para>
+      <para id="id12227098"><title>Mathematical Formula for a Circle</title><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>–</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> is a circle with center (<m:math>
+<m:mi>h</m:mi></m:math>,<m:math>
+<m:mi>k</m:mi>
+</m:math>) and radius <m:math>
+<m:mi>r</m:mi>
+</m:math></para>
+      
+
+      <para id="id12949205">From this, it is very easy to graph a circle in standard form.</para>
+      <example id="id1166609912200"><title>Graphing a Circle in Standard Form</title><table id="id6558854" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Graph <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>10</m:mn>
+</m:math></entry>
+              <entry>The problem. We recognize it as being a circle in standard form.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mi>h</m:mi>
+<m:mo>=</m:mo>
+<m:mn>–5</m:mn>
+<m:mspace width="25pt"/>
+</m:math>
+<m:math>
+<m:mi>k</m:mi>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+<m:mspace width="25pt"/>
+</m:math>
+<m:math>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>10</m:mn>
+
+</m:math></entry>
+              <entry>You can read these variables straight out of the equation, just as in <m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mi>m</m:mi>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mi>b</m:mi>
+</m:math>. Question: how can we make our equation’s <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>5</m:mn>
+<m:mo>)</m:mo>
+</m:math> look like the standard formula’s <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mi>h</m:mi>
+<m:mo>)</m:mo>
+</m:math>? Answer: if <m:math>
+<m:mi>h</m:mi>
+<m:mo>=</m:mo>
+<m:mn>-5</m:mn>
+</m:math>. In general, <m:math>
+<m:mi>h</m:mi>
+</m:math> comes out the <emphasis>opposite sign</emphasis> from the number in the equation. Similarly, <m:math>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>-</m:mo>
+<m:mn>6</m:mn>
+<m:mo>)</m:mo>
+</m:math> tells us that <m:math>
+<m:mi>k</m:mi>
+</m:math> will be <emphasis>positive</emphasis> 6.</entry>
+            </row>
+            <row>
+              <entry>Center: (–5,6) Radius:
+<m:math>
+<m:msqrt><m:mn>10</m:mn></m:msqrt></m:math></entry>
+              <entry>Now that we have the variables, we know everything we need to know about the circle.</entry>
+            </row>
+            <row>
+              <entry>
+       <media id="id1166607337102" alt="A circle centered at (-5,6) with a radius of the square root of 10"><image src="../../media/cer1.PNG" mime-type="image/png" print-width="2in"/></media>
+      </entry>
+              <entry>And we can graph it!
+<m:math>
+<m:msqrt>
+<m:mn>10</m:mn>
+</m:msqrt>
+</m:math> is, of course, just a little over 3—so we know where the circle begins and ends.</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup>
+</table>
+      </example>
+
+      <para id="id12269109">Just as you can go from a formula to a graph, you can also go the other way.</para>
+
+      <example id="id6788188"><title>Find the Equation for this Circle</title><table id="id10709877" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Find the equation for a circle with center at (15,-4) and radius 8.</entry>
+              <entry>The problem.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>15</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>4</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>64</m:mn>
+</m:math></entry>
+              <entry>The solution, straight from the formula for a circle.</entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+      </example>
+
+      <para id="id10135557">If a circle is given in <emphasis>nonstandard form</emphasis>, you can always recognize it by the following sign: it has both an <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and a <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term, and they have the <emphasis>same coefficient.</emphasis></para>
+      <list id="id7832786" list-type="bulleted"><item><m:math>
+<m:mn>–3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math> is a circle: the <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> terms both have the coefficient –3</item>
+        <item><m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math> is <emphasis>not</emphasis> a circle: the <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term has coefficient 3, and the <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> has –3</item>
+        <item><m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>3</m:mn>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math> is <emphasis>not </emphasis>a circle: there is no <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term</item>
+      </list>
+      <para id="id11055787">Once you recognize it as a circle, you have to put it into the standard form for graphing. You do this by completing the square... twice!</para>
+      <example id="id1166607749746"><title>Graphing a Circle in Nonstandard Form</title><table id="id5608132" summary="">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Graph <m:math>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>12</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>28</m:mn>
+<m:mi>y</m:mi>
+<m:mo>–</m:mo>
+<m:mn>12</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></entry>
+              <entry>The problem. The equation has both an <m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> and a <m:math>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> term, and they have the <emphasis>same coefficient</emphasis> (a 2 in this case): this tells us it will graph as a circle.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>14</m:mn>
+<m:mi>y</m:mi>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></entry>
+              <entry>Divide by the coefficient (the 2). Completing the square is always easiest without a coefficient in front of the squared tem.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>14</m:mn>
+<m:mi>y</m:mi>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+</m:math></entry>
+              <entry>Collect the <m:math><m:mi>x</m:mi></m:math> terms together and the <m:math><m:mi>y</m:mi></m:math> terms together, with the number on the other side.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>)</m:mo>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msup>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>14</m:mn>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>49</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>6</m:mn>
+<m:mo>+</m:mo>
+<m:mn>9</m:mn>
+<m:mo>+</m:mo>
+<m:mn>49</m:mn>
+</m:math></entry>
+              <entry>Complete the square for <emphasis>both</emphasis> <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math>.</entry>
+            </row>
+            <row>
+              <entry><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>64</m:mn>
+</m:math></entry>
+              <entry>Rewrite our perfect squares. We are now in the correct form. We can see that this is a circle with center at (3,–7) and radius 8. (*Remember How the signs change on <m:math><m:mi>h</m:mi></m:math> and <m:math>
+<m:mi>k</m:mi></m:math>!)</entry>
+            </row>
+            <row>
+              <entry>
+     <media id="id1166611144977" alt="A circle centered at (3,-7) with a radius of 8"><image src="../../media/cer2.PNG" mime-type="image/png" print-width="2in"/></media>
+      </entry>
+              <entry>Once you have the center and radius, you can immediately draw the circle, as we did in the previous example.</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+</tgroup>
+</table>
+      </example>
+    </section>
+    <section id="id10668258">
+      <title>Going From the Definition of a Circle to the Formula</title>
+      <para id="id3858972">If you’re following all this, you’re now at the point where you understand the <emphasis>definition</emphasis> of a circle...and you understand the <emphasis>formula</emphasis> for a circle. But the two may seem entirely unconnected. In other words, when I said <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>–</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> is the formula for a circle, you just had to take my word for it.</para>
+      <para id="id7051157">In fact, it is possible to <emphasis>start</emphasis> with the definition of a circle, and <emphasis>work from there</emphasis> to the formula, thus showing why the formula works the way it does.</para>
+      <para id="id9131801">Let’s go through this exercise with a specific example. Suppose we want to find the formula for the circle with center at (–2,1) and radius 3. We will start with the definition: this circle is the set of <emphasis>all the points that are exactly 3 units away from the point </emphasis>(–2,1). Think of it as a club. If a point is exactly 3 units away from (–2,1), it gets to join the club; if it is not exactly 3 units away, it doesn’t get to join.</para>
+      <figure id="id12335311"><media id="id1166612087638" alt="A circle with radious 3 centered at (-2,1)"><image src="../../media/graphics3-61ea.png" mime-type="image/png" print-width="3in"/></media></figure>
+      <para id="id6962610">You already know what the formula is going to be, but remember, in this exercise we’re not going to <emphasis>assume</emphasis> that formula—we’re going to <emphasis>assume</emphasis> nothing but the definition, and <emphasis>work our way</emphasis> to the formula. So here is our starting point, the definition for this circle:</para>
+      <para id="id6908121"><emphasis>“The distance from </emphasis>(<m:math><m:mi>x</m:mi></m:math>,<m:math><m:mi>y</m:mi></m:math>)<emphasis> to </emphasis>(–2,1)<emphasis> is 3.”</emphasis></para>
+      <para id="id4475187">Any point (<m:math>
+<m:mi>x</m:mi></m:math>,
+<m:math><m:mi>y</m:mi></m:math>) that meets this criterion is in our club. Using the distance formula that we developed above, we can immediately translate this English language definition into a mathematical formula. Recall that if xxxd is the distance between the points (<m:math>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mn>1</m:mn>
+</m:msub></m:math>,
+<m:math>
+<m:msub>
+<m:mi>y</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math>) and (<m:math>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+</m:math>,
+<m:math>
+<m:msub>
+<m:mi>y</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+</m:math>), then <m:math>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>x</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:msub>
+<m:mi>y</m:mi>
+<m:mn>2</m:mn>
+</m:msub>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi>y</m:mi>
+<m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>d</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> (Pythagorean Theorem). So in this particular case,</para>
+      <para id="id8555687"><m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>2</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:mn>9</m:mn>
+</m:math></para>
+      <para id="id12159335">Note that this corresponds perfectly to the formula given above. In fact, if you repeat this exercise more generically—using (<m:math>
+<m:mi>h</m:mi>
+</m:math>,
+<m:math>
+<m:mi>k</m:mi>
+</m:math>) as the center instead of (–2,1), and r as the radius instead of 3—then you end up with the exact formula given above, <m:math>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mi>h</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo>
+<m:mi>y</m:mi>
+<m:mo>–</m:mo>
+<m:mi>k</m:mi>
+<m:msup>
+<m:mo>)</m:mo>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mi>r</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>.</para>
+      <para id="id3807402">For each of the remaining shapes, I’m going to repeat the pattern used here for the circle. First I will give the <emphasis>geometric definition</emphasis> and then the <emphasis>mathematical formula.</emphasis> However, I will not take the third step, of showing how the definition (with the distance formula) leads to the formula: you will do this, for each shape, in the exercises in the text.</para>
+    </section>
+  </content>
+</document>
