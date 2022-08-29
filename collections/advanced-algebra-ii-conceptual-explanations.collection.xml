@@ -1,424 +1,202 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Textbook">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Textbook" authors="Kenny M. Felder">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-  <md:content-id>col11666</md:content-id>
-  <md:title>Advanced Algebra II: Conceptual Explanations</md:title>
-  
-  
-  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
-  <md:language>en</md:language>
-
-  
-
-  
-  
-  
-  
-  
-
-  <md:uuid>a63e615b-f8d8-4dde-aa50-65f1b16cab8d</md:uuid>
-<md:slug>advanced-algebra-ii-conceptual-explanations</md:slug>
-</metadata>
-
+    <md:content-id>col11666</md:content-id>
+    <md:title>Advanced Algebra II: Conceptual Explanations</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>a63e615b-f8d8-4dde-aa50-65f1b16cab8d</md:uuid>
+    <md:slug>advanced-algebra-ii-conceptual-explanations</md:slug>
+  </metadata>
   <col:content>
-    
-      <col:module document="m19435"/>
-        
-      
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Functions</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18192">
-        <col:featured-links>
-          
+    <col:module document="m19435"/>
+    <col:subcollection>
+      <md:title>Functions</md:title>
+      <col:content>
+        <col:module document="m18192">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/functions/introduction-to-functions">Introduction to Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18194">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18194">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/pre-algebra/defining-variables">Defining Variables Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18189"/>
-        
-      
-    
-    
-      <col:module document="m18190"/>
-        
-      
-    
-    
-      <col:module document="m18195">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18189"/>
+        <col:module document="m18190"/>
+        <col:module document="m18195">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/connecting-graphs-tables-and-equations">Connecting Graphs, Tables, and Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/interpreting-graphs">Interpreting Graphs Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18191">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18191">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/domain-and-range">Domain and Range Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18193"/>
-        
-      
-    
-    
-      <col:module document="m18188">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18193"/>
+        <col:module document="m18188">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/function-notation">Function Notation Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18186">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18186">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/writing-an-equation-to-describe-pictures">Writing an Equation Video</cnxml:link>
             </cnxml:link-group>
-          
-          
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/relations-and-determining-whether-a-relation-is-a-function">Determining Whether a Relation is a Function Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18196">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18196">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/interpreting-graphs">Interpreting Graphs Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18197">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18197">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/linear-equations-and-their-graphs/definition-of-slope-">Definition of Slope Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/linear-equations-and-their-graphs/applications-of-linear-equations">Applications of Linear Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/writing-an-equation-to-describe-pictures">Writing an Equation Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/graphs-and-functions/writing-an-equation-to-describe-a-table">Writing an Equation to Describe a Table Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18187"/>
-        
-      
-    
-    
-      <col:module document="m18198">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18187"/>
+        <col:module document="m18198">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/definition-of-inverse">Definition of Inverse Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/finding-an-inverse-algebraically">Finding the Inverse Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/finding-an-inverse-graphically">Graphing Inverse Functions Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/proving-two-functions-are-inverses">Proving Inverse Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Inequalities and Absolute Values</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18205">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Inequalities and Absolute Values</md:title>
+      <col:content>
+        <col:module document="m18205">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/linear-inequalities/solving-a-three-part-linear-inequality">Solving Multi Step Inequalities Video</cnxml:link>
             </cnxml:link-group>
-          
-          
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/solving-and-graphing-inequalities/solving-and-graphing-compound-inequalities">Compound Inequalities Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/solving-and-graphing-inequalities/linear-inequalities">Linear Inequalities Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/solving-and-graphing-inequalities/solving-and-graphing-inequalities-using-multiplication-or-division">Solving Inequalities Using Multiplication Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18201">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18201">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/absolute-value/absolute-value-equations">Absolute Value Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/absolute-value/definitions-and-applications-of-absolute-value">Absolute Value Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18207">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18207">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/absolute-value/absolute-value-inequalities">Absolute Value Inequalities Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/linear-inequalities/solving-greater-than-absolute-value-inequalities">Solving Absolute Value Inequalities Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18199">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18199">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/absolute-value/shifts-in-absolute-value-graphs">Shifts in Absolute Value Graphs Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/absolute-value/absolute-value-inequality-graphs-in-two-variables">Absolute Value Graphing Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18208">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18208">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/solving-and-graphing-inequalities/graphing-2-variable-inequalities">Graphing Inequalities with Two Variables Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/solving-and-graphing-inequalities/solving-and-graphing-inequalities-using-addition-or-subtraction">Solving and Graphing Inequalities Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18200">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18200">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/additional-topics/piecewise-functions">Piecewise Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Simultaneous Equations</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18211"/>
-        
-      
-    
-    
-      <col:module document="m18209"/>
-        
-      
-    
-    
-      <col:module document="m18212"/>
-        
-      
-    
-    
-      <col:module document="m18215"/>
-        
-      
-    
-    
-      <col:module document="m18213"/>
-        
-      
-    
-    
-      <col:module document="m18210"/>
-        
-      
-    
-    
-      <col:module document="m18214"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Quadratic Functions</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18224">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Simultaneous Equations</md:title>
+      <col:content>
+        <col:module document="m18211"/>
+        <col:module document="m18209"/>
+        <col:module document="m18212"/>
+        <col:module document="m18215"/>
+        <col:module document="m18213"/>
+        <col:module document="m18210"/>
+        <col:module document="m18214"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Quadratic Functions</md:title>
+      <col:content>
+        <col:module document="m18224">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/polynomials/multiplying-monomials-andor-binomials-and-foil">Multiplying Binomials Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18227">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18227">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/quadratic-equations-and-functions/solving-quadratic-equations-by-factoring">Solving Quadratic Equations by Factoring Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18222"/>
-        
-      
-    
-    
-      <col:module document="m18217">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18222"/>
+        <col:module document="m18217">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/quadratic-equations-and-functions/completing-the-square">Completing the Square Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/solving-a-quadratic-by-completing-the-square">Solving Quadratic Equations by Completing the Square Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18231">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18231">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/deriving-the-quadratic-formula">Deriving the Quadratic Formula Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/quadratic-equations-and-functions/the-quadratic-formula">The Quadratic Formula Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18216"/>
-        
-      
-    
-    
-      <col:module document="m18228">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18216"/>
+        <col:module document="m18228">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/graphing-a-quadratic-inequality">Graphing Quadratic Inequalities Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/graphing-a-horizontal-parabola">Graphing a Horizontal Parabola Video</cnxml:link>
@@ -430,161 +208,83 @@
               <cnxml:link url="http://www.brightstorm.com/math/algebra/quadratic-equations-and-functions/graphing-quadratic-equations">Graphing Quadratic Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/quadratic-equations-and-functions/exploring-quadratic-graphs">Quadratic Graphs Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18220"/>
-        
-      
-    
-    
-      <col:module document="m18230">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18220"/>
+        <col:module document="m18230">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/graphing-a-quadratic-inequality">Graphing Quadratic Inequalities Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Exponents</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18232"/>
-        
-      
-    
-    
-      <col:module document="m18235">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Exponents</md:title>
+      <col:content>
+        <col:module document="m18232"/>
+        <col:module document="m18235">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/exponents/introduction-to-exponents">Laws of Exponents Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/exponents/multiplication-and-division-properties-of-exponents">Multiplying Exponents Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/exponents/simplifying-expressions-with-exponents">Simplifying Expressions with Exponents Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18234">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18234">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/exponents/zero-and-negative-exponents">Negative and Zero Exponents Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18233">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18233">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/exponential-functions-and-their-graphs">Graphing Exponential Functions Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/exponential-growth-and-decay">Exponential Growth and Decay Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/compound-interest-finite-number-of-calculations">Compound Interest Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/exponential-growth-and-decay">Exponential Growth and Decay Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Logarithms</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18242">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Logarithms</md:title>
+      <col:content>
+        <col:module document="m18242">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/introduction-to-logarithms">Introduction to Logarithms Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/solving-simple-logarithmic-equations">Simple Logarithmic Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/solving-a-logarithmic-equation">Solving Logarithmic Equations Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18236"/>
-        
-      
-    
-    
-      <col:module document="m18241">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18236"/>
+        <col:module document="m18241">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/exponential-functions-and-their-graphs">Graphing Exponential Functions Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/solving-exponential-equations-with-the-same-base">Solving Exponential Equations Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18240">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18240">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/definition-of-inverse">Definition of Inverse Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/finding-an-inverse-algebraically">Finding the Inverse Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/finding-an-inverse-graphically">Graphing Inverse Functions Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/proving-two-functions-are-inverses">Proving Inverse Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18239">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18239">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/condensing-logarithms">Condensing Logarithms Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/evaluating-a-logarithmic-expression-in-terms-of-known-">Evaluating Logarithms Video</cnxml:link>
@@ -592,182 +292,96 @@
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/exponential-and-logarithmic-functions/properties-of-logarithms">Properties of Logarithms Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/exponential-and-logarithmic-functions/logarithmic-functions">Logarithmic Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18237">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18237">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/common-and-natural-logarithms">Common Logarithm Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18238">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18238">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/inverse-exponential-and-logarithmic-functions/graph-of-logarithmic-functions">Graphing Logarithmic Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Rational Expressions</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18304">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Rational Expressions</md:title>
+      <col:content>
+        <col:module document="m18304">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/rational-expressions-and-functions/introduction-to-rational-functions">Rational Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-          
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/rational-expressions-and-functions/definition-and-domain-of-a-rational-expression">Rational Expressions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18296">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18296">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/rational-expressions-and-functions/simplifying-complex-fractions">Simplifying Complex Fractions Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/rational-expressions-and-functions/simplifying-rational-functions-with-factoring-and-gcfs">Simplifying Rational Functions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18301">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18301">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/rational-expressions-and-functions/multiplying-and-dividing-rationals">Multiplying Rationals Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18303">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18303">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/rational-expressions-and-functions/adding-and-subtracting-rational-expressions">Adding and Subtracting Rational Expressions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18302">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18302">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/rational-expressions-and-functions/solving-a-rational-equation">Solving a Rational Equation Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/rational-expressions-and-functions/solving-a-rational-equation-for-a-parameter">Solving Equations with Rational Numbers Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/rational-expressions-and-functions/solving-rational-equations-with-like-denominators">Solving Rational Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/rational-expressions-and-functions/solving-rational-equations-with-unlike-denominators">Solving Rational Equations with Unlike Denominators Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18299">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18299">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/rational-expressions-and-functions/multiplying-and-dividing-rational-expressions">Dividing Rationals Video</cnxml:link>
             </cnxml:link-group>
-          
-          
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/rational-expressions-and-functions/dividing-polynomials">Dividing Polynomials Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Radicals</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18244">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Radicals</md:title>
+      <col:content>
+        <col:module document="m18244">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/radical-expressions-and-equations/cube-roots">Cube Roots Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/radical-expressions-and-equations/estimating-square-roots">Estimating Square Roots Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/introduction-to-radicals">Math Radicals Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18271"/>
-        
-      
-    
-    
-      <col:module document="m18274">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18271"/>
+        <col:module document="m18274">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/radical-expressions-and-equations/adding-and-subtracting-radical-expressions">Adding and Subtracting Radical Expressions Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/radical-expressions-and-equations/dividing-radicals-and-rationalizing-the-denominator">Dividing Radicals Video</cnxml:link>
@@ -778,63 +392,32 @@
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/multiplying-radicals-of-different-roots">How to Multiply Radicals Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/multiplying-radicals-of-the-same-root">Multiplying Radical Expressions Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18273">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18273">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/radical-expressions-and-equations/solving-radical-equations">Solving Radical Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/solving-an-equation-with-radicals">Solving Radicals Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Imaginary Numbers</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18285"/>
-        
-      
-    
-    
-      <col:module document="m18286">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Imaginary Numbers</md:title>
+      <col:content>
+        <col:module document="m18285"/>
+        <col:module document="m18286">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/powers-of-i">Powers of i Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/introduction-to-imaginary-numbers">Imaginary Numbers Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18282">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18282">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/introduction-to-imaginary-numbers">Imaginary Numbers Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/radicals-and-absolute-values">Radical Expressions Video</cnxml:link>
@@ -842,377 +425,188 @@
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/evaluating-rational-exponents">Dividing Complex Numbers Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/multiplying-complex-numbers">Multiplying Complex Numbers Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18283"/>
-        
-      
-    
-    
-      <col:module document="m18288">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18283"/>
+        <col:module document="m18288">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/solving-quadratic-equations-in-disguise">Complex Quadratic Equations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/radical-expressions-and-equations/cube-roots">The Discriminant Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/the-discriminant-of-a-quadratic-equation">Quadratic Equation Discriminant Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18284">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18284">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/real-numbers/properties-of-real-numbers">Properties of Real Numbers Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/roots-and-radicals/introduction-to-imaginary-numbers">Imaginary Numbers Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/real-numbers/introduction-to-real-numbers">Real Numbers Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/polar-coordinates-and-complex-numbers/finding-the-roots-of-a-complex-number">Complex Number Roots Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Matrices</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18311">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Matrices</md:title>
+      <col:content>
+        <col:module document="m18311">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/matrices/introduction-to-matrices">Introduction to Matrices Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18291">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18291">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/matrices/matrix-multiplication">Matrix Multiplication Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/matrices/matrix-operations">Matrix Operations Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18293">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18293">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/the-identity-matrix">The Identity Matrix Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18294">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18294">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/the-inverse-of-a-square-matrix">Square Matrix Inverse Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/invertible-square-matrices-and-determinants">Invertible Square Matrix Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18290"/>
-        
-      
-    
-    
-      <col:module document="m18289">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18290"/>
+        <col:module document="m18289">
+          <col:featured-links>
             <cnxml:link-group type="prerequisite">
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/simplifying-determinants">Simplifying Determinants Video</cnxml:link>
             </cnxml:link-group>
-          
-          
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/2-by-2-determinants">2x2 Determinant Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/3-by-3-determinants">3x3 Determinant Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/area-with-determinants">Area Determinant Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18292">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18292">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/precalculus/systems-of-linear-equations-and-matrices/solving-linear-systems-using-matrix-algebra">Matrix Algebra Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Modeling Data with Functions</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18277"/>
-        
-      
-    
-    
-      <col:module document="m18281">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Modeling Data with Functions</md:title>
+      <col:content>
+        <col:module document="m18277"/>
+        <col:module document="m18281">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra/linear-equations-and-their-graphs/inverse-variation">Inverse Variation Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra/linear-equations-and-their-graphs/direct-variation">Direct Variation Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/functions/joint-and-combined-variation">Joint Variation Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18278"/>
-        
-      
-    
-    
-      <col:module document="m18279"/>
-        
-      
-    
-    
-      <col:module document="m18280"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Conics</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m18265">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18278"/>
+        <col:module document="m18279"/>
+        <col:module document="m18280"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Conics</md:title>
+      <col:content>
+        <col:module document="m18265">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/conic-sections/introduction-to-conic-sections">Conic Sections Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/conic-sections/conic-section-formulas">Conic Section Formulas Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18246"/>
-        
-      
-    
-    
-      <col:module document="m18245">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18246"/>
+        <col:module document="m18245">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/conic-sections/the-circle">Circle Conic Section Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18268">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18268">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/introduction-to-parabolas">Parabola Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/focus-and-directrix-of-a-parabola">Parabola Focus Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/finding-intercepts-domain-range-and-vertex-of-a-parabola">Parabola Intercepts Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/quadratic-equations-and-inequalities/finding-the-vertex-of-a-parabola-by-completing-the-square">Vertex of a Parabola Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18247">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18247">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/conic-sections/the-ellipse">Ellipse Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18249">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18249">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/conic-sections/the-hyperbola">Hyperbola Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/conic-sections/transformations-of-a-hyperbola">Hyperbola Graphs Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m18270"/>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Sequences and Series</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m19076">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m18270"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Sequences and Series</md:title>
+      <col:content>
+        <col:module document="m19076">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/recursion-sequences">Recursion Sequences Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/introduction-to-sequences">Introduction to Sequences Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/arithmetic-sequences">Arithmetic Sequences Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/geometric-sequences">Geometric Sequences Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m19074">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m19074">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/arithmetic-series">Arithmetic Series Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/series-and-summation-notation">Series and Summation Video</cnxml:link>
             </cnxml:link-group>
-          
-          
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/geometric-series">Geometric Series Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m19075">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m19075">
+          <col:featured-links>
             <cnxml:link-group type="supplemental">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/sequences-and-series/mathematical-induction">Mathematical Induction Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>Probability</md:title>
-        
-        
-        
-
-        <col:content>
-          
-    
-      <col:module document="m19073">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Probability</md:title>
+      <col:content>
+        <col:module document="m19073">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/introduction-to-probability">Introduction to Probability Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/conditional-probability">Conditional Probability Video</cnxml:link>
@@ -1222,56 +616,31 @@
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/probability-of-independent-events">Probability of Independent Events Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/probability-of-multiple-events">Probability of Multiple Events Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m19072">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m19072">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/permutations">Permutations Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/combinations-vs-permutations">Combinations and Permutations Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-    
-      <col:module document="m19071">
-        <col:featured-links>
-          
+          </col:featured-links>
+        </col:module>
+        <col:module document="m19071">
+          <col:featured-links>
             <cnxml:link-group type="example">
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/combinations">Statistics Combination Video</cnxml:link>
               <cnxml:link url="http://www.brightstorm.com/math/algebra-2/combinatorics/combinations-vs-permutations">Combinations and Permutations Video</cnxml:link>
             </cnxml:link-group>
-          
-        </col:featured-links>
-      </col:module>
-        
-      
-    
-        </col:content>
-      </col:subcollection>
-    
-    
-      
-        
-      <col:subcollection>
-        <md:title>(Untitled)</md:title>
-        
-        
-        
-
-        <col:content>
+          </col:featured-links>
+        </col:module>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>(Untitled)</md:title>
+      <col:content>
           
         </col:content>
-      </col:subcollection>
-    
+    </col:subcollection>
   </col:content>
 </col:collection>
